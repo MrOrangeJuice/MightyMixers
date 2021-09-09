@@ -82,21 +82,11 @@ if(incomingSlot > -2)
 	switch(incomingSlot)
 	{
 		case -1:
-			if(!global.keyboardSlot)
-			{
-				// Check for next open player slot
-				for(i = 0; i < 8; i++)
-				{
-					if(global.pSlots[i] == false)
-					{
-						boxes[i].player = i;
-						newSelect = instance_create_layer(xSpawn[i],288,"Select",oSelect);
-						newSelect.keyboard = true;
-						newSelect.player = i;
-					}
-				}
-				global.keyboardSlot = true;
-			}
+			boxes[0].player = 0;
+			newSelect = instance_create_layer(xSpawn[0],288,"Select",oSelect);
+			newSelect.keyboard = true;
+			newSelect.player = 0;
+			global.keyboardSlot = true;
 			break;
 	}
 	incomingSlot = -2;
@@ -109,7 +99,8 @@ if(outgoingSlot > -2)
 		case -1:
 			if(global.keyboardSlot)
 			{
-					
+				boxes[0].player = -1;
+				global.keyboardSlot = false;
 			}
 			break;
 	}

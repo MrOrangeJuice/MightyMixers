@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 global.players = 0;
-global.pSlots = [false, false, false, false, false, false, false, false];
+global.pSlots = [-2, -2, -2, -2, -2, -2, -2, -2, -2];
 global.keyboardSlot = false;
 global.c1Slot = false;
 global.c2Slot = false;
