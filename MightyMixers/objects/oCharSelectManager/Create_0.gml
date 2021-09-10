@@ -14,3 +14,13 @@ box8 = instance_create_layer(530,288,"Elements",oBox);
 box9 = instance_create_layer(600,288,"Elements",oBox);
 boxes = [box1,box2,box3,box4,box5,box6,box7,box8,box9];
 xSpawn = [40,110,180,250,320,390,460,530,600];
+
+select1 = 0;
+select2 = 0;
+select3 = 0;
+select4 = 0;
+select5 = 0;
+select6 = 0;
+select7 = 0;
+select8 = 0;
+select9 = 0;
