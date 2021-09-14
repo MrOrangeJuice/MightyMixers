@@ -24,6 +24,7 @@
     {"id":{"name":"sChar1Jump","path":"sprites/sChar1Jump/sChar1Jump.yy",},"order":3,},
     {"id":{"name":"sChar1Walk","path":"sprites/sChar1Walk/sChar1Walk.yy",},"order":2,},
     {"id":{"name":"sBetamanPortrait","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"order":1,},
+    {"id":{"name":"oPotion","path":"objects/oPotion/oPotion.yy",},"order":6,},
     {"id":{"name":"oSelect","path":"objects/oSelect/oSelect.yy",},"order":1,},
     {"id":{"name":"rCharSelect","path":"rooms/rCharSelect/rCharSelect.yy",},"order":0,},
   ],
