@@ -264,3 +264,31 @@ if(outgoingSlot > -2)
 	}
 	outgoingSlot = -2;	
 }
+
+// Change player portraits
+portrait1.sprite_index = characters[global.p1Char];
+portrait1.image_index = characters[global.p1Skin];
+
+portrait2.sprite_index = characters[global.p2Char];
+portrait2.image_index = characters[global.p2Skin];
+
+portrait3.sprite_index = characters[global.p3Char];
+portrait3.image_index = characters[global.p3Skin];
+
+portrait4.sprite_index = characters[global.p4Char];
+portrait4.image_index = characters[global.p4Skin];
+
+portrait5.sprite_index = characters[global.p5Char];
+portrait5.image_index = characters[global.p5Skin];
+
+portrait6.sprite_index = characters[global.p6Char];
+portrait6.image_index = characters[global.p6Skin];
+
+portrait7.sprite_index = characters[global.p7Char];
+portrait7.image_index = characters[global.p7Skin];
+
+portrait8.sprite_index = characters[global.p8Char];
+portrait8.image_index = characters[global.p8Skin];
+
+portrait9.sprite_index = characters[global.p9Char];
+portrait9.image_index = characters[global.p9Skin];

@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 43,
   "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_bottom": 103,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 44,
+  "height": 104,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -26,7 +26,44 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"7f1ce2bd-0f9a-437e-96dd-0e95437781bc","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"7f1ce2bd-0f9a-437e-96dd-0e95437781bc","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"fab60c5c-46cf-40fe-bb85-104dd144b463","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"7f1ce2bd-0f9a-437e-96dd-0e95437781bc","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"2571009c-74d6-47d6-982a-d8bbdcfcccbb","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sBetamanPortrait","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"7f1ce2bd-0f9a-437e-96dd-0e95437781bc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0b6ed655-9341-4b2e-a490-871a03b29a21","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0b6ed655-9341-4b2e-a490-871a03b29a21","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"2571009c-74d6-47d6-982a-d8bbdcfcccbb","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"0b6ed655-9341-4b2e-a490-871a03b29a21","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"fab60c5c-46cf-40fe-bb85-104dd144b463","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBetamanPortrait","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"0b6ed655-9341-4b2e-a490-871a03b29a21","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"461d90eb-a8eb-4c3b-b880-90741befb3c2","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"461d90eb-a8eb-4c3b-b880-90741befb3c2","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"2571009c-74d6-47d6-982a-d8bbdcfcccbb","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"461d90eb-a8eb-4c3b-b880-90741befb3c2","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"fab60c5c-46cf-40fe-bb85-104dd144b463","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBetamanPortrait","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"461d90eb-a8eb-4c3b-b880-90741befb3c2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5fd95ff9-800d-451e-99c2-ac834a14a751","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5fd95ff9-800d-451e-99c2-ac834a14a751","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"2571009c-74d6-47d6-982a-d8bbdcfcccbb","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"5fd95ff9-800d-451e-99c2-ac834a14a751","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"fab60c5c-46cf-40fe-bb85-104dd144b463","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBetamanPortrait","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"5fd95ff9-800d-451e-99c2-ac834a14a751","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"cbf1ebcb-bd9e-4a8d-ad35-da5a44ee6a71","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cbf1ebcb-bd9e-4a8d-ad35-da5a44ee6a71","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"2571009c-74d6-47d6-982a-d8bbdcfcccbb","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"cbf1ebcb-bd9e-4a8d-ad35-da5a44ee6a71","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"fab60c5c-46cf-40fe-bb85-104dd144b463","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBetamanPortrait","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"cbf1ebcb-bd9e-4a8d-ad35-da5a44ee6a71","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a19c5b5a-eda0-4a3b-9005-60adbef4a4c0","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a19c5b5a-eda0-4a3b-9005-60adbef4a4c0","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"2571009c-74d6-47d6-982a-d8bbdcfcccbb","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"a19c5b5a-eda0-4a3b-9005-60adbef4a4c0","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"fab60c5c-46cf-40fe-bb85-104dd144b463","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBetamanPortrait","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"a19c5b5a-eda0-4a3b-9005-60adbef4a4c0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8a107eff-e233-4a2c-a763-1fab7bf3e9d7","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8a107eff-e233-4a2c-a763-1fab7bf3e9d7","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"2571009c-74d6-47d6-982a-d8bbdcfcccbb","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"8a107eff-e233-4a2c-a763-1fab7bf3e9d7","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"fab60c5c-46cf-40fe-bb85-104dd144b463","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBetamanPortrait","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"8a107eff-e233-4a2c-a763-1fab7bf3e9d7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"74709248-ffae-4b81-be0e-9a7239b556ff","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"74709248-ffae-4b81-be0e-9a7239b556ff","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"2571009c-74d6-47d6-982a-d8bbdcfcccbb","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"74709248-ffae-4b81-be0e-9a7239b556ff","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"fab60c5c-46cf-40fe-bb85-104dd144b463","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBetamanPortrait","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"74709248-ffae-4b81-be0e-9a7239b556ff","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fbcf4e94-8346-49da-97c0-b45c278985ed","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fbcf4e94-8346-49da-97c0-b45c278985ed","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"2571009c-74d6-47d6-982a-d8bbdcfcccbb","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"fbcf4e94-8346-49da-97c0-b45c278985ed","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"fab60c5c-46cf-40fe-bb85-104dd144b463","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBetamanPortrait","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"fbcf4e94-8346-49da-97c0-b45c278985ed","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d351e03e-a89b-42b9-b9c8-77b4f33280c3","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d351e03e-a89b-42b9-b9c8-77b4f33280c3","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"2571009c-74d6-47d6-982a-d8bbdcfcccbb","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"d351e03e-a89b-42b9-b9c8-77b4f33280c3","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"fab60c5c-46cf-40fe-bb85-104dd144b463","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBetamanPortrait","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"d351e03e-a89b-42b9-b9c8-77b4f33280c3","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sBetamanPortrait","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},
@@ -36,12 +73,21 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 10.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"03b412bd-85c5-4466-b451-1b177c5de797","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7f1ce2bd-0f9a-437e-96dd-0e95437781bc","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"33cdc9b1-6468-4e5b-8555-1cc7dac3b61c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0b6ed655-9341-4b2e-a490-871a03b29a21","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"43bec32d-7a27-4ac7-bb91-4b265f742833","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"461d90eb-a8eb-4c3b-b880-90741befb3c2","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"89bfb46f-79e1-4cd5-a1df-c656f4bdf86c","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5fd95ff9-800d-451e-99c2-ac834a14a751","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ad409119-c014-4fed-b19e-980d3576cfa2","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cbf1ebcb-bd9e-4a8d-ad35-da5a44ee6a71","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"36d31826-151a-4ac0-ad5c-7dbdce690ba7","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a19c5b5a-eda0-4a3b-9005-60adbef4a4c0","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a32b9b5b-278a-405e-8891-c33a60e6f96b","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8a107eff-e233-4a2c-a763-1fab7bf3e9d7","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"77b2a3b3-d7a5-471d-bd65-99a26591c915","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"74709248-ffae-4b81-be0e-9a7239b556ff","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ab495653-ffff-45af-bf5e-a407384fdbda","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fbcf4e94-8346-49da-97c0-b45c278985ed","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"76967532-48cf-4fbd-b091-3b4d252372b5","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d351e03e-a89b-42b9-b9c8-77b4f33280c3","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,6 +111,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"2571009c-74d6-47d6-982a-d8bbdcfcccbb","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fab60c5c-46cf-40fe-bb85-104dd144b463","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
