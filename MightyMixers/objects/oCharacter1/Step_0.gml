@@ -9,10 +9,12 @@ var move = key_right - key_left;
 hsp = move * walksp;
 vsp = vsp + grv;
 
+//jump
 if(place_meeting(x, y + 1, oWall)) && (key_jump){
-	vsp = -20;
+	vsp = -10;
 }
 
+//x collision
 if(place_meeting(x + hsp, y, oWall)){
 	while(!place_meeting(x + sign(hsp), y, oWall)){
 		x = x + sign(hsp);
@@ -22,6 +24,7 @@ if(place_meeting(x + hsp, y, oWall)){
 
 x = x + hsp;
 
+//y collision
 if (place_meeting(x,y+vsp,oWall)){
 	while (!place_meeting(x,y+sign(vsp),oWall)){
 		y = y + sign(vsp);
@@ -31,12 +34,16 @@ if (place_meeting(x,y+vsp,oWall)){
 
 y = y + vsp;
 
+//animation
 if(!place_meeting(x,y+1,oWall)){
 	sprite_index = sChar1Jump;
 }
 else{
-	if(hsp != 0){
+	if(hsp > 0){
 		sprite_index = sChar1Walk;	
+	}
+	else if(hsp < 0){
+		sprite_index = sChar1WalkReverse;
 	}
 	else{
 		sprite_index = sChar1;	
