@@ -1,6 +1,8 @@
 {
   "resources": [
     {"id":{"name":"sSelect","path":"sprites/sSelect/sSelect.yy",},"order":1,},
+    {"id":{"name":"sBoxPortrait","path":"sprites/sBoxPortrait/sBoxPortrait.yy",},"order":0,},
+    {"id":{"name":"oBoxPortrait","path":"objects/oBoxPortrait/oBoxPortrait.yy",},"order":5,},
     {"id":{"name":"sRandomCSS","path":"sprites/sRandomCSS/sRandomCSS.yy",},"order":4,},
     {"id":{"name":"sEmptyBox","path":"sprites/sEmptyBox/sEmptyBox.yy",},"order":5,},
     {"id":{"name":"sFullBox","path":"sprites/sFullBox/sFullBox.yy",},"order":6,},
@@ -10,6 +12,7 @@
     {"id":{"name":"oCharSelectManager","path":"objects/oCharSelectManager/oCharSelectManager.yy",},"order":3,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":2,},
     {"id":{"name":"sBetaManCSS","path":"sprites/sBetaManCSS/sBetaManCSS.yy",},"order":3,},
+    {"id":{"name":"sBetamanPortrait","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"order":1,},
     {"id":{"name":"oSelect","path":"objects/oSelect/oSelect.yy",},"order":1,},
     {"id":{"name":"rCharSelect","path":"rooms/rCharSelect/rCharSelect.yy",},"order":0,},
   ],
@@ -44,6 +47,7 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/BoxPortraits.yy","order":8,"resourceVersion":"1.0","name":"BoxPortraits","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

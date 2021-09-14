@@ -24,3 +24,13 @@ select6 = 0;
 select7 = 0;
 select8 = 0;
 select9 = 0;
+
+portrait1 = 0;
+portrait2 = 0;
+portrait3 = 0;
+portrait4 = 0;
+portrait5 = 0;
+portrait6 = 0;
+portrait7 = 0;
+portrait8 = 0;
+portrait9 = 0;

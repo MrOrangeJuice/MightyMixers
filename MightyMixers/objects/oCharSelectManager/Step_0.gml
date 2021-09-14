@@ -86,6 +86,7 @@ if(incomingSlot > -2)
 			{
 				boxes[0].player = 0;
 				select1 = instance_create_layer(xSpawn[0],288,"Select",oSelect);
+				portrait1 = instance_create_layer(xSpawn[0],276,"Elements",oBoxPortrait);
 				select1.keyboard = true;
 				select1.player = 0;
 				global.keyboardSlot = true;
@@ -96,6 +97,7 @@ if(incomingSlot > -2)
 			{
 				boxes[1].player = 1;
 				select2 = instance_create_layer(xSpawn[1],288,"Select",oSelect);
+				portrait2 = instance_create_layer(xSpawn[1],276,"Elements",oBoxPortrait);
 				select2.player = 1;
 				global.c1Slot = true;
 			}
@@ -105,6 +107,7 @@ if(incomingSlot > -2)
 			{
 				boxes[2].player = 2;
 				select3 = instance_create_layer(xSpawn[2],288,"Select",oSelect);
+				portrait3 = instance_create_layer(xSpawn[2],276,"Elements",oBoxPortrait);
 				select3.player = 1;
 				global.c2Slot = true;
 			}
@@ -114,6 +117,7 @@ if(incomingSlot > -2)
 			{
 				boxes[3].player = 3;
 				select4 = instance_create_layer(xSpawn[3],288,"Select",oSelect);
+				portrait4 = instance_create_layer(xSpawn[3],276,"Elements",oBoxPortrait);
 				select4.player = 1;
 				global.c3Slot = true;
 			}
@@ -123,6 +127,7 @@ if(incomingSlot > -2)
 			{
 				boxes[4].player = 4;
 				select5 = instance_create_layer(xSpawn[4],288,"Select",oSelect);
+				portrait5 = instance_create_layer(xSpawn[4],276,"Elements",oBoxPortrait);
 				select5.player = 1;
 				global.c4Slot = true;
 			}
@@ -132,6 +137,7 @@ if(incomingSlot > -2)
 			{
 				boxes[5].player = 5;
 				select6 = instance_create_layer(xSpawn[5],288,"Select",oSelect);
+				portrait6 = instance_create_layer(xSpawn[5],276,"Elements",oBoxPortrait);
 				select6.player = 1;
 				global.c5Slot = true;
 			}
@@ -141,6 +147,7 @@ if(incomingSlot > -2)
 			{
 				boxes[6].player = 6;
 				select7 = instance_create_layer(xSpawn[6],288,"Select",oSelect);
+				portrait7 = instance_create_layer(xSpawn[6],276,"Elements",oBoxPortrait);
 				select7.player = 1;
 				global.c6Slot = true;
 			}
@@ -150,6 +157,7 @@ if(incomingSlot > -2)
 			{
 				boxes[7].player = 7;
 				select8 = instance_create_layer(xSpawn[7],288,"Select",oSelect);
+				portrait8 = instance_create_layer(xSpawn[7],276,"Elements",oBoxPortrait);
 				select8.player = 1;
 				global.c7Slot = true;
 			}
@@ -159,6 +167,7 @@ if(incomingSlot > -2)
 			{
 				boxes[8].player = 8;
 				select9 = instance_create_layer(xSpawn[8],288,"Select",oSelect);
+				portrait9 = instance_create_layer(xSpawn[8],276,"Elements",oBoxPortrait);
 				select9.player = 1;
 				global.c8Slot = true;
 			}
@@ -176,6 +185,7 @@ if(outgoingSlot > -2)
 			{
 				boxes[0].player = -1;
 				instance_destroy(select1);
+				instance_destroy(portrait1);
 				global.keyboardSlot = false;
 			}
 			break;
@@ -184,6 +194,7 @@ if(outgoingSlot > -2)
 			{
 				boxes[1].player = -1;
 				instance_destroy(select2);
+				instance_destroy(portrait2);
 				global.c1Slot = false;
 			}
 			break;
@@ -192,6 +203,7 @@ if(outgoingSlot > -2)
 			{
 				boxes[2].player = -1;
 				instance_destroy(select3);
+				instance_destroy(portrait3);
 				global.c1Slot = false;
 			}
 			break;
@@ -200,6 +212,7 @@ if(outgoingSlot > -2)
 			{
 				boxes[3].player = -1;
 				instance_destroy(select4);
+				instance_destroy(portrait4);
 				global.c2Slot = false;
 			}
 			break;
@@ -208,6 +221,7 @@ if(outgoingSlot > -2)
 			{
 				boxes[4].player = -1;
 				instance_destroy(select5);
+				instance_destroy(portrait5);
 				global.c3Slot = false;
 			}
 			break;
@@ -216,6 +230,7 @@ if(outgoingSlot > -2)
 			{
 				boxes[5].player = -1;
 				instance_destroy(select6);
+				instance_destroy(portrait6);
 				global.c4Slot = false;
 			}
 			break;
@@ -224,6 +239,7 @@ if(outgoingSlot > -2)
 			{
 				boxes[6].player = -1;
 				instance_destroy(select7);
+				instance_destroy(portrait7);
 				global.c5Slot = false;
 			}
 			break;
@@ -232,6 +248,7 @@ if(outgoingSlot > -2)
 			{
 				boxes[7].player = -1;
 				instance_destroy(select8);
+				instance_destroy(portrait8);
 				global.c6Slot = false;
 			}
 			break;
@@ -240,6 +257,7 @@ if(outgoingSlot > -2)
 			{
 				boxes[8].player = -1;
 				instance_destroy(select9);
+				instance_destroy(portrait9);
 				global.c7Slot = false;
 			}
 			break;

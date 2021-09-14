@@ -1,6 +1,6 @@
 /// @description Initialize Variables
 
-moveSpeed = 5;
+moveSpeed = 7;
 hover = false;
 hsp = 0;
 vsp = 0;
