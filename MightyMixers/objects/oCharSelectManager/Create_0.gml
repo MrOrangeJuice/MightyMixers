@@ -23,6 +23,8 @@ charBox0.character = "betaman";
 charBox1 = instance_create_layer(368,128,"Elements",oCharacter);
 charBox1.character = "random";
 
+charBoxes = [charBox0,charBox1];
+
 select1 = 0;
 select2 = 0;
 select3 = 0;

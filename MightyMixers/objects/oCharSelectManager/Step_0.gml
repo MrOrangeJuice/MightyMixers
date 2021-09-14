@@ -265,30 +265,71 @@ if(outgoingSlot > -2)
 	outgoingSlot = -2;	
 }
 
+// Get player selections
+if(instance_exists(select1))
+{
+	for(i = 0; i < array_length_1d(charBoxes); i++)
+	{
+		if(place_meeting(select1.x,select1.y,charBoxes[i]))
+		{
+			
+			global.p1Char = i + 1;
+		}
+	}
+}
+
+
 // Change player portraits
-portrait1.sprite_index = characters[global.p1Char];
-portrait1.image_index = characters[global.p1Skin];
+if(instance_exists(portrait1))
+{
+	portrait1.sprite_index = characters[global.p1Char];
+	portrait1.image_index = global.p1Skin;
+}
 
-portrait2.sprite_index = characters[global.p2Char];
-portrait2.image_index = characters[global.p2Skin];
+if(instance_exists(portrait2))
+{
+	portrait2.sprite_index = characters[global.p2Char];
+	portrait2.image_index = global.p2Skin;
+}
 
-portrait3.sprite_index = characters[global.p3Char];
-portrait3.image_index = characters[global.p3Skin];
+if(instance_exists(portrait3))
+{
+	portrait3.sprite_index = characters[global.p3Char];
+	portrait3.image_index = global.p3Skin;
+}
 
-portrait4.sprite_index = characters[global.p4Char];
-portrait4.image_index = characters[global.p4Skin];
+if(instance_exists(portrait4))
+{
+	portrait4.sprite_index = characters[global.p4Char];
+	portrait4.image_index = global.p4Skin;
+}
 
-portrait5.sprite_index = characters[global.p5Char];
-portrait5.image_index = characters[global.p5Skin];
+if(instance_exists(portrait5))
+{
+	portrait5.sprite_index = characters[global.p5Char];
+	portrait5.image_index = global.p5Skin;
+}
 
-portrait6.sprite_index = characters[global.p6Char];
-portrait6.image_index = characters[global.p6Skin];
+if(instance_exists(portrait6))
+{
+	portrait6.sprite_index = characters[global.p6Char];
+	portrait6.image_index = global.p6Skin;
+}
 
-portrait7.sprite_index = characters[global.p7Char];
-portrait7.image_index = characters[global.p7Skin];
+if(instance_exists(portrait7))
+{
+	portrait7.sprite_index = characters[global.p7Char];
+	portrait7.image_index = global.p7Skin;
+}
 
-portrait8.sprite_index = characters[global.p8Char];
-portrait8.image_index = characters[global.p8Skin];
+if(instance_exists(portrait8))
+{
+	portrait8.sprite_index = characters[global.p8Char];
+	portrait8.image_index = global.p8Skin;
+}
 
-portrait9.sprite_index = characters[global.p9Char];
-portrait9.image_index = characters[global.p9Skin];
+if(instance_exists(portrait9))
+{
+	portrait9.sprite_index = characters[global.p9Char];
+	portrait9.image_index = global.p9Skin;
+}
