@@ -270,10 +270,9 @@ if(instance_exists(select1))
 {
 	for(i = 0; i < array_length_1d(charBoxes); i++)
 	{
-		if(place_meeting(select1.x,select1.y,charBoxes[i]))
+		if(place_meeting(charBoxes[i].x,charBoxes[i].y,select1))
 		{
-			
-			global.p1Char = i + 1;
+			select1.sprite_index = sSelectHover;
 		}
 	}
 }
