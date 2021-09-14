@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -48,6 +48,9 @@
     {"compositeImage":{"FrameId":{"name":"3067753d-0f9c-4b72-ab14-937478804a68","path":"sprites/sSelect/sSelect.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"3067753d-0f9c-4b72-ab14-937478804a68","path":"sprites/sSelect/sSelect.yy",},"LayerId":{"name":"ede2e630-b76b-4faf-b57b-41320a475a27","path":"sprites/sSelect/sSelect.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sSelect","path":"sprites/sSelect/sSelect.yy",},"resourceVersion":"1.0","name":"3067753d-0f9c-4b72-ab14-937478804a68","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5cd25de1-3c92-4c0a-a27f-c5c615728526","path":"sprites/sSelect/sSelect.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5cd25de1-3c92-4c0a-a27f-c5c615728526","path":"sprites/sSelect/sSelect.yy",},"LayerId":{"name":"ede2e630-b76b-4faf-b57b-41320a475a27","path":"sprites/sSelect/sSelect.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sSelect","path":"sprites/sSelect/sSelect.yy",},"resourceVersion":"1.0","name":"5cd25de1-3c92-4c0a-a27f-c5c615728526","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sSelect","path":"sprites/sSelect/sSelect.yy",},
@@ -57,7 +60,7 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 8.0,
+    "length": 9.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
@@ -70,6 +73,7 @@
             {"id":"c93faa84-225d-41ce-9926-7d8809c300c0","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"638175df-b958-4894-80ea-4ed91cfda1b9","path":"sprites/sSelect/sSelect.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"ef4c60b4-b11c-4f59-ab90-12f38c90a260","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"78792589-622e-46ab-b28a-2d98912280aa","path":"sprites/sSelect/sSelect.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"86ca17db-75f6-4955-88a9-5242b132aef6","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3067753d-0f9c-4b72-ab14-937478804a68","path":"sprites/sSelect/sSelect.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ad52ebf6-2c49-4820-bf73-fdc5ae2853b1","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5cd25de1-3c92-4c0a-a27f-c5c615728526","path":"sprites/sSelect/sSelect.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -82,8 +86,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 16,
+    "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sSelect","path":"sprites/sSelect/sSelect.yy",},
