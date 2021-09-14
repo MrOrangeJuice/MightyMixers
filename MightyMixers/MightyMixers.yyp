@@ -14,6 +14,7 @@
     {"id":{"name":"sSelectHover","path":"sprites/sSelectHover/sSelectHover.yy",},"order":9,},
     {"id":{"name":"sBetaManCSS","path":"sprites/sBetaManCSS/sBetaManCSS.yy",},"order":3,},
     {"id":{"name":"sBetamanPortrait","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"order":1,},
+    {"id":{"name":"oPotion","path":"objects/oPotion/oPotion.yy",},"order":6,},
     {"id":{"name":"oSelect","path":"objects/oSelect/oSelect.yy",},"order":1,},
     {"id":{"name":"rCharSelect","path":"rooms/rCharSelect/rCharSelect.yy",},"order":0,},
   ],
@@ -58,7 +59,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.560",
+    "IDEVersion": "2.3.4.580",
   },
   "resourceVersion": "1.4",
   "name": "MightyMixers",
