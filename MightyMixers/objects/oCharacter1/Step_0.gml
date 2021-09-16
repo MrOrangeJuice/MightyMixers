@@ -49,3 +49,9 @@ else{
 		sprite_index = sChar1;	
 	}
 }
+
+//potion throwing
+if(gamepad_button_check_pressed(0, gp_shoulderrb) || mouse_check_button_pressed(mb_left))
+{
+	instance_create_layer(x, y, "potions", oPotion);
+}

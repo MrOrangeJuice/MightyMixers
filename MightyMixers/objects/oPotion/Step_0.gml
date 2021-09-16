@@ -5,15 +5,14 @@
 
 vsp = vsp + grv;
 
-/*
-uncomment when player implemented
 
-if(place_meeting(x, y, all))
+
+if(place_meeting(x, y, oWall))
 {
 	//check splash range (based on size) for players and apply damage to all in range
 	instance_destroy();
 }
-*/
+
 
 x = x + hsp;
 y = y + vsp;
