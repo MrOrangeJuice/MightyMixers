@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sPotionProto",
+    "path": "sprites/sPotionProto/sPotionProto.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

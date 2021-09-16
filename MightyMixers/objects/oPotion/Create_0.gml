@@ -3,18 +3,26 @@
 hsp = 0;
 vsp = 0;
 grv = 0.4;
+hSpeedStart = 10;
+vSpeedStart = -10;
 
-key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
-key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 
-var facing;	//what direction player is facing on throw, might want to implement more indirectly once player in implemented
-if(gp_axislh > 0 || key_right)
+key_right = gamepad_button_check_pressed(0, vk_right) || keyboard_check_pressed(ord("D"));
+key_left = gamepad_button_check_pressed(0, vk_left) || keyboard_check_pressed(ord("A"));
+
+var facing = 1;	//what direction player is facing on throw, might want to implement more indirectly once player in implemented
+if(gamepad_axis_value(0, gp_axislh) > 0 || key_right)
 {
 	facing = 1;
 }
-else if(gp_axislh < 0 || key_left)
+else if(gamepad_axis_value(0, gp_axislh) < 0 || key_left)
 {
 	facing = -1;
+	show_debug_message("left");
 }
 
-hsp = facing;
+var outputString = string(facing);
+show_debug_message(outputString);
+
+hsp = facing * hSpeedStart;
+vsp = vSpeedStart;
