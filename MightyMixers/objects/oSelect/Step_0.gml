@@ -55,6 +55,11 @@ else
 	key_down = keyboard_check(ord("S")) || keyboard_check(vk_down);
 }
 
+if(place_meeting(x,y,oCharacter))
+{
+	sprite_index = sSelectHover;	
+}
+
 // Calculate cursor movement
 var movehor = key_right - key_left;
 var movever = key_down - key_up;

@@ -270,9 +270,12 @@ if(instance_exists(select1))
 {
 	for(i = 0; i < array_length_1d(charBoxes); i++)
 	{
-		if(place_meeting(charBoxes[i].x,charBoxes[i].y,select1))
+		if(position_meeting(select1.x,select1.y,charBoxes[i]))
 		{
-			select1.sprite_index = sSelectHover;
+			if(keyboard_check_pressed(vk_space))
+			{
+				game_end();	
+			}
 		}
 	}
 }
