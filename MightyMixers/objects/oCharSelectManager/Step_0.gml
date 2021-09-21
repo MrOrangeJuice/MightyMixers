@@ -208,77 +208,129 @@ if(outgoingSlot > -2)
 		case 0:
 			if(global.c1Slot)
 			{
-				boxes[1].player = -1;
-				instance_destroy(select2);
-				instance_destroy(portrait2);
-				global.c1Slot = false;
-				global.p2Char = 0;
+				if(global.p2Char != 0)
+				{
+					global.p2Char = 0;
+				}
+				else
+				{
+					boxes[1].player = -1;
+					instance_destroy(select2);
+					instance_destroy(portrait2);
+					global.c1Slot = false;
+				}
 			}
 			break;
 		case 1:
 			if(global.c2Slot)
 			{
-				boxes[2].player = -1;
-				instance_destroy(select3);
-				instance_destroy(portrait3);
-				global.c1Slot = false;
-				global.p3Char = 0;
+				if(global.p3Char != 0)
+				{
+					global.p3Char = 0;
+				}
+				else
+				{
+					boxes[2].player = -1;
+					instance_destroy(select3);
+					instance_destroy(portrait3);
+					global.c2Slot = false;
+				}
 			}
 			break;
 		case 2:
 			if(global.c3Slot)
 			{
-				boxes[3].player = -1;
-				instance_destroy(select4);
-				instance_destroy(portrait4);
-				global.c2Slot = false;
-				global.p3Char = 0;
+				if(global.p4Char != 0)
+				{
+					global.p4Char = 0;
+				}
+				else
+				{
+					boxes[3].player = -1;
+					instance_destroy(select4);
+					instance_destroy(portrait4);
+					global.c3Slot = false;
+				}
 			}
 			break;
 		case 3:
 			if(global.c4Slot)
 			{
-				boxes[4].player = -1;
-				instance_destroy(select5);
-				instance_destroy(portrait5);
-				global.c3Slot = false;
-				global.p3Char = 0;
+				if(global.p5Char != 0)
+				{
+					global.p5Char = 0;
+				}
+				else
+				{
+					boxes[4].player = -1;
+					instance_destroy(select5);
+					instance_destroy(portrait5);
+					global.c4Slot = false;
+				}
 			}
 			break;
 		case 4:
 			if(global.c5Slot)
 			{
-				boxes[5].player = -1;
-				instance_destroy(select6);
-				instance_destroy(portrait6);
-				global.c4Slot = false;
+				if(global.p6Char != 0)
+				{
+					global.p6Char = 0;
+				}
+				else
+				{
+					boxes[5].player = -1;
+					instance_destroy(select6);
+					instance_destroy(portrait6);
+					global.c5Slot = false;
+				}
 			}
 			break;
 		case 5:
 			if(global.c6Slot)
 			{
-				boxes[6].player = -1;
-				instance_destroy(select7);
-				instance_destroy(portrait7);
-				global.c5Slot = false;
+				if(global.p2Char != 0)
+				{
+					global.p2Char = 0;
+				}
+				else
+				{
+					boxes[6].player = -1;
+					instance_destroy(select7);
+					instance_destroy(portrait7);
+					global.c6Slot = false;
+				}
 			}
 			break;
 		case 6:
 			if(global.c7Slot)
 			{
-				boxes[7].player = -1;
-				instance_destroy(select8);
-				instance_destroy(portrait8);
-				global.c6Slot = false;
+				if(global.p2Char != 0)
+				{
+					global.p2Char = 0;
+				}
+				else
+				{
+					boxes[7].player = -1;
+					instance_destroy(select8);
+					instance_destroy(portrait8);
+					global.c7Slot = false;
+				}
 			}
 			break;
 		case 7:
 			if(global.c8Slot)
 			{
-				boxes[8].player = -1;
-				instance_destroy(select9);
-				instance_destroy(portrait9);
-				global.c7Slot = false;
+				if(global.p2Char != 0)
+				{
+					global.p2Char = 0;
+				}
+				else
+				{
+					boxes[8].player = -1;
+					instance_destroy(select9);
+					instance_destroy(portrait9);
+					global.c8Slot = false;
+				}
 			}
 			break;
 	}
@@ -298,61 +350,4 @@ if(instance_exists(select1))
 			}
 		}
 	}
-}
-
-
-// Change player portraits
-/*
-if(instance_exists(portrait1))
-{
-	if(global.p1Char == 1) portrait1.instance_destroy();
-	portrait1.image_index = global.p1Skin;
-}
-
-if(instance_exists(portrait2))
-{
-	portrait2.sprite_index = characters[global.p2Char];
-	portrait2.image_index = global.p2Skin;
-}
-
-if(instance_exists(portrait3))
-{
-	portrait3.sprite_index = characters[global.p3Char];
-	portrait3.image_index = global.p3Skin;
-}
-
-if(instance_exists(portrait4))
-{
-	portrait4.sprite_index = characters[global.p4Char];
-	portrait4.image_index = global.p4Skin;
-}
-
-if(instance_exists(portrait5))
-{
-	portrait5.sprite_index = characters[global.p5Char];
-	portrait5.image_index = global.p5Skin;
-}
-
-if(instance_exists(portrait6))
-{
-	portrait6.sprite_index = characters[global.p6Char];
-	portrait6.image_index = global.p6Skin;
-}
-
-if(instance_exists(portrait7))
-{
-	portrait7.sprite_index = characters[global.p7Char];
-	portrait7.image_index = global.p7Skin;
-}
-
-if(instance_exists(portrait8))
-{
-	portrait8.sprite_index = characters[global.p8Char];
-	portrait8.image_index = global.p8Skin;
-}
-
-if(instance_exists(portrait9))
-{
-	portrait9.sprite_index = characters[global.p9Char];
-	portrait9.image_index = global.p9Skin;
 }

@@ -35,6 +35,7 @@
     {"id":{"name":"sScientist2_Idle","path":"sprites/sScientist2_Idle/sScientist2_Idle.yy",},"order":29,},
     {"id":{"name":"sDrak0_Jump","path":"sprites/sDrak0_Jump/sDrak0_Jump.yy",},"order":7,},
     {"id":{"name":"sScientist1_Run","path":"sprites/sScientist1_Run/sScientist1_Run.yy",},"order":25,},
+    {"id":{"name":"sFightBanner","path":"sprites/sFightBanner/sFightBanner.yy",},"order":12,},
     {"id":{"name":"sDrak0_Run","path":"sprites/sDrak0_Run/sDrak0_Run.yy",},"order":8,},
     {"id":{"name":"sDrak2_Run","path":"sprites/sDrak2_Run/sDrak2_Run.yy",},"order":13,},
     {"id":{"name":"oSelect","path":"objects/oSelect/oSelect.yy",},"order":1,},
