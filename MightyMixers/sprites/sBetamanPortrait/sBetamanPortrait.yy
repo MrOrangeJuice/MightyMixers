@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"7f1ce2bd-0f9a-437e-96dd-0e95437781bc","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7f1ce2bd-0f9a-437e-96dd-0e95437781bc","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"fab60c5c-46cf-40fe-bb85-104dd144b463","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"7f1ce2bd-0f9a-437e-96dd-0e95437781bc","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"2571009c-74d6-47d6-982a-d8bbdcfcccbb","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"7f1ce2bd-0f9a-437e-96dd-0e95437781bc","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"fab60c5c-46cf-40fe-bb85-104dd144b463","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sBetamanPortrait","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"7f1ce2bd-0f9a-437e-96dd-0e95437781bc","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"0b6ed655-9341-4b2e-a490-871a03b29a21","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"0b6ed655-9341-4b2e-a490-871a03b29a21","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"LayerId":{"name":"2571009c-74d6-47d6-982a-d8bbdcfcccbb","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -100,8 +100,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 22,
+    "yorigin": 52,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBetamanPortrait","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},
