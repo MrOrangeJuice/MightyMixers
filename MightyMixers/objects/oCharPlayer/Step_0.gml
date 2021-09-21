@@ -31,7 +31,7 @@ if(key_toggle2){
 
 //jump
 if(place_meeting(x, y + 1, oWall)) && (key_jump){
-	vsp = -10;
+	vsp = jumpForce;
 }
 
 //x collision

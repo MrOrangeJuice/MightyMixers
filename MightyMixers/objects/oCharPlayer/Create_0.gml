@@ -3,6 +3,7 @@
 hsp = 0;
 vsp = 0;
 grv = 0.4;
-walksp = 4;
+walksp = 6.5;
 character = 0;
 skin = 0;
+jumpForce = -13.5;

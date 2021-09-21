@@ -18,6 +18,7 @@
     {"id":{"name":"sDrak0_Idle","path":"sprites/sDrak0_Idle/sDrak0_Idle.yy",},"order":6,},
     {"id":{"name":"sPotionProto","path":"sprites/sPotionProto/sPotionProto.yy",},"order":11,},
     {"id":{"name":"sScientist0_Run","path":"sprites/sScientist0_Run/sScientist0_Run.yy",},"order":16,},
+    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":2,},
     {"id":{"name":"sDrak1_Jump","path":"sprites/sDrak1_Jump/sDrak1_Jump.yy",},"order":10,},
     {"id":{"name":"Sprite12","path":"sprites/Sprite12/Sprite12.yy",},"order":15,},
     {"id":{"name":"sRandomPortrait","path":"sprites/sRandomPortrait/sRandomPortrait.yy",},"order":2,},
@@ -59,6 +60,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"rCharSelect","path":"rooms/rCharSelect/rCharSelect.yy",},},
     {"roomId":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
   ],
@@ -88,7 +90,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.560",
+    "IDEVersion": "2.3.4.583",
   },
   "resourceVersion": "1.4",
   "name": "MightyMixers",
