@@ -15,12 +15,11 @@ box9 = instance_create_layer(600,288,"Elements",oBox);
 
 boxes = [box1,box2,box3,box4,box5,box6,box7,box8,box9];
 xSpawn = [40,110,180,250,320,390,460,530,600];
-characters = [sBoxPortrait,sBetamanPortrait,sRandomPortrait];
 
 // Spawn character boxes
-charBox0 = instance_create_layer(272,128,"Elements",oCharacter);
+charBox0 = instance_create_layer(272,112,"Elements",oCharacter);
 charBox0.character = "betaman";
-charBox1 = instance_create_layer(368,128,"Elements",oCharacter);
+charBox1 = instance_create_layer(368,112,"Elements",oCharacter);
 charBox1.character = "random";
 
 charBoxes = [charBox0,charBox1];
@@ -44,3 +43,5 @@ portrait6 = 0;
 portrait7 = 0;
 portrait8 = 0;
 portrait9 = 0;
+
+bannerCreated = false;

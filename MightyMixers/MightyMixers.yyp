@@ -32,6 +32,7 @@
     {"id":{"name":"sBetamanPortrait","path":"sprites/sBetamanPortrait/sBetamanPortrait.yy",},"order":1,},
     {"id":{"name":"oPotion","path":"objects/oPotion/oPotion.yy",},"order":6,},
     {"id":{"name":"sDrak2_Jump","path":"sprites/sDrak2_Jump/sDrak2_Jump.yy",},"order":12,},
+    {"id":{"name":"oFightBanner","path":"objects/oFightBanner/oFightBanner.yy",},"order":9,},
     {"id":{"name":"sScientist2_Idle","path":"sprites/sScientist2_Idle/sScientist2_Idle.yy",},"order":29,},
     {"id":{"name":"sDrak0_Jump","path":"sprites/sDrak0_Jump/sDrak0_Jump.yy",},"order":7,},
     {"id":{"name":"sScientist1_Run","path":"sprites/sScientist1_Run/sScientist1_Run.yy",},"order":25,},
@@ -60,8 +61,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
     {"roomId":{"name":"rCharSelect","path":"rooms/rCharSelect/rCharSelect.yy",},},
+    {"roomId":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

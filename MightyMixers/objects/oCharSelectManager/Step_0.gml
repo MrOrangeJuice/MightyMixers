@@ -338,9 +338,9 @@ if(outgoingSlot > -2)
 }
 
 // Get player selections
-if(instance_exists(select1))
+for(i = 0; i < array_length_1d(charBoxes); i++)
 {
-	for(i = 0; i < array_length_1d(charBoxes); i++)
+	if(instance_exists(select1))
 	{
 		if(position_meeting(select1.x,select1.y,charBoxes[i]))
 		{
@@ -349,61 +349,116 @@ if(instance_exists(select1))
 				global.p1Char = i + 1;
 			}
 		}
+	}
+	if(instance_exists(select2))
+	{
 		if(position_meeting(select2.x,select2.y,charBoxes[i]))
 		{
-			if(keyboard_check_pressed(vk_space))
+			if(gamepad_button_check_pressed(0,gp_face1))
 			{
 				global.p2Char = i + 1;
 			}
 		}
+	}
+	if(instance_exists(select3))
+	{
 		if(position_meeting(select3.x,select3.y,charBoxes[i]))
 		{
-			if(keyboard_check_pressed(vk_space))
+			if(gamepad_button_check_pressed(1,gp_face1))
 			{
 				global.p3Char = i + 1;
 			}
 		}
+	}
+	if(instance_exists(select4))
+	{
 		if(position_meeting(select4.x,select4.y,charBoxes[i]))
 		{
-			if(keyboard_check_pressed(vk_space))
+			if(gamepad_button_check_pressed(2,gp_face1))
 			{
 				global.p4Char = i + 1;
 			}
 		}
+	}
+	if(instance_exists(select5))
+	{
 		if(position_meeting(select5.x,select5.y,charBoxes[i]))
 		{
-			if(keyboard_check_pressed(vk_space))
+			if(gamepad_button_check_pressed(3,gp_face1))
 			{
 				global.p5Char = i + 1;
 			}
 		}
+	}
+	if(instance_exists(select6))
+	{
 		if(position_meeting(select6.x,select6.y,charBoxes[i]))
 		{
-			if(keyboard_check_pressed(vk_space))
+			if(gamepad_button_check_pressed(4,gp_face1))
 			{
 				global.p6Char = i + 1;
 			}
 		}
+	}
+	if(instance_exists(select7))
+	{
 		if(position_meeting(select7.x,select7.y,charBoxes[i]))
 		{
-			if(keyboard_check_pressed(vk_space))
+			if(gamepad_button_check_pressed(5,gp_face1))
 			{
 				global.p7Char = i + 1;
 			}
 		}
+	}
+	if(instance_exists(select8))
+	{
 		if(position_meeting(select8.x,select8.y,charBoxes[i]))
 		{
-			if(keyboard_check_pressed(vk_space))
+			if(gamepad_button_check_pressed(6,gp_face1))
 			{
 				global.p8Char = i + 1;
 			}
 		}
+	}
+	if(instance_exists(select9))
+	{
 		if(position_meeting(select9.x,select9.y,charBoxes[i]))
 		{
-			if(keyboard_check_pressed(vk_space))
+			if(gamepad_button_check_pressed(7,gp_face1))
 			{
 				global.p9Char = i + 1;
 			}
 		}
+	}
+}
+
+// Calculate number of players
+newPlayers = 0;
+if(global.p1Char != 0) newPlayers++;
+if(global.p2Char != 0) newPlayers++;
+if(global.p3Char != 0) newPlayers++;
+if(global.p4Char != 0) newPlayers++;
+if(global.p5Char != 0) newPlayers++;
+if(global.p6Char != 0) newPlayers++;
+if(global.p7Char != 0) newPlayers++;
+if(global.p8Char != 0) newPlayers++;
+if(global.p9Char != 0) newPlayers++;
+global.players = newPlayers;
+
+// Spawn fight banner if at least one player has joined
+if(global.players >= 1)
+{
+	if(!bannerCreated)
+	{
+		instance_create_layer(0,164,"Elements",oFightBanner)
+		bannerCreated = true;
+	}
+}
+else
+{
+	if(bannerCreated)
+	{
+		instance_destroy(oFightBanner);
+		bannerCreated = false;
 	}
 }
