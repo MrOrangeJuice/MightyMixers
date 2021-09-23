@@ -349,5 +349,61 @@ if(instance_exists(select1))
 				global.p1Char = i + 1;
 			}
 		}
+		if(position_meeting(select2.x,select2.y,charBoxes[i]))
+		{
+			if(keyboard_check_pressed(vk_space))
+			{
+				global.p2Char = i + 1;
+			}
+		}
+		if(position_meeting(select3.x,select3.y,charBoxes[i]))
+		{
+			if(keyboard_check_pressed(vk_space))
+			{
+				global.p3Char = i + 1;
+			}
+		}
+		if(position_meeting(select4.x,select4.y,charBoxes[i]))
+		{
+			if(keyboard_check_pressed(vk_space))
+			{
+				global.p4Char = i + 1;
+			}
+		}
+		if(position_meeting(select5.x,select5.y,charBoxes[i]))
+		{
+			if(keyboard_check_pressed(vk_space))
+			{
+				global.p5Char = i + 1;
+			}
+		}
+		if(position_meeting(select6.x,select6.y,charBoxes[i]))
+		{
+			if(keyboard_check_pressed(vk_space))
+			{
+				global.p6Char = i + 1;
+			}
+		}
+		if(position_meeting(select7.x,select7.y,charBoxes[i]))
+		{
+			if(keyboard_check_pressed(vk_space))
+			{
+				global.p7Char = i + 1;
+			}
+		}
+		if(position_meeting(select8.x,select8.y,charBoxes[i]))
+		{
+			if(keyboard_check_pressed(vk_space))
+			{
+				global.p8Char = i + 1;
+			}
+		}
+		if(position_meeting(select9.x,select9.y,charBoxes[i]))
+		{
+			if(keyboard_check_pressed(vk_space))
+			{
+				global.p9Char = i + 1;
+			}
+		}
 	}
 }
