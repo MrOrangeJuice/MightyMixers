@@ -3,26 +3,9 @@
 hsp = 0;
 vsp = 0;
 grv = 0.4;
-hSpeedStart = 10;
-vSpeedStart = -10;
 
-
-key_right = gamepad_button_check_pressed(0, vk_right) || keyboard_check_pressed(ord("D"));
-key_left = gamepad_button_check_pressed(0, vk_left) || keyboard_check_pressed(ord("A"));
-
-var facing = 1;	//what direction player is facing on throw, might want to implement more indirectly once player in implemented
-if(gamepad_axis_value(0, gp_axislh) > 0 || key_right)
-{
-	facing = 1;
-}
-else if(gamepad_axis_value(0, gp_axislh) < 0 || key_left)
-{
-	facing = -1;
-	show_debug_message("left");
-}
-
-var outputString = string(facing);
-show_debug_message(outputString);
-
-hsp = facing * hSpeedStart;
-vsp = vSpeedStart;
+//calculating launch angle via mouse position or joystick orientation - needs updating for multiplayer
+//launchAngle = arctan2(gamepad_axis_value(0, gp_axisrv), gamepad_axis_value(0, gp_axisrh));
+launchAngle = arctan2(mouse_y - oCharPlayer.y, mouse_x - oCharPlayer.x);
+hsp = airSpeed * cos(launchAngle);
+vsp = airSpeed * sin(launchAngle) / weight;

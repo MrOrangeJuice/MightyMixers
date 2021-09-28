@@ -208,77 +208,129 @@ if(outgoingSlot > -2)
 		case 0:
 			if(global.c1Slot)
 			{
-				boxes[1].player = -1;
-				instance_destroy(select2);
-				instance_destroy(portrait2);
-				global.c1Slot = false;
-				global.p2Char = 0;
+				if(global.p2Char != 0)
+				{
+					global.p2Char = 0;
+				}
+				else
+				{
+					boxes[1].player = -1;
+					instance_destroy(select2);
+					instance_destroy(portrait2);
+					global.c1Slot = false;
+				}
 			}
 			break;
 		case 1:
 			if(global.c2Slot)
 			{
-				boxes[2].player = -1;
-				instance_destroy(select3);
-				instance_destroy(portrait3);
-				global.c1Slot = false;
-				global.p3Char = 0;
+				if(global.p3Char != 0)
+				{
+					global.p3Char = 0;
+				}
+				else
+				{
+					boxes[2].player = -1;
+					instance_destroy(select3);
+					instance_destroy(portrait3);
+					global.c2Slot = false;
+				}
 			}
 			break;
 		case 2:
 			if(global.c3Slot)
 			{
-				boxes[3].player = -1;
-				instance_destroy(select4);
-				instance_destroy(portrait4);
-				global.c2Slot = false;
-				global.p3Char = 0;
+				if(global.p4Char != 0)
+				{
+					global.p4Char = 0;
+				}
+				else
+				{
+					boxes[3].player = -1;
+					instance_destroy(select4);
+					instance_destroy(portrait4);
+					global.c3Slot = false;
+				}
 			}
 			break;
 		case 3:
 			if(global.c4Slot)
 			{
-				boxes[4].player = -1;
-				instance_destroy(select5);
-				instance_destroy(portrait5);
-				global.c3Slot = false;
-				global.p3Char = 0;
+				if(global.p5Char != 0)
+				{
+					global.p5Char = 0;
+				}
+				else
+				{
+					boxes[4].player = -1;
+					instance_destroy(select5);
+					instance_destroy(portrait5);
+					global.c4Slot = false;
+				}
 			}
 			break;
 		case 4:
 			if(global.c5Slot)
 			{
-				boxes[5].player = -1;
-				instance_destroy(select6);
-				instance_destroy(portrait6);
-				global.c4Slot = false;
+				if(global.p6Char != 0)
+				{
+					global.p6Char = 0;
+				}
+				else
+				{
+					boxes[5].player = -1;
+					instance_destroy(select6);
+					instance_destroy(portrait6);
+					global.c5Slot = false;
+				}
 			}
 			break;
 		case 5:
 			if(global.c6Slot)
 			{
-				boxes[6].player = -1;
-				instance_destroy(select7);
-				instance_destroy(portrait7);
-				global.c5Slot = false;
+				if(global.p2Char != 0)
+				{
+					global.p2Char = 0;
+				}
+				else
+				{
+					boxes[6].player = -1;
+					instance_destroy(select7);
+					instance_destroy(portrait7);
+					global.c6Slot = false;
+				}
 			}
 			break;
 		case 6:
 			if(global.c7Slot)
 			{
-				boxes[7].player = -1;
-				instance_destroy(select8);
-				instance_destroy(portrait8);
-				global.c6Slot = false;
+				if(global.p2Char != 0)
+				{
+					global.p2Char = 0;
+				}
+				else
+				{
+					boxes[7].player = -1;
+					instance_destroy(select8);
+					instance_destroy(portrait8);
+					global.c7Slot = false;
+				}
 			}
 			break;
 		case 7:
 			if(global.c8Slot)
 			{
-				boxes[8].player = -1;
-				instance_destroy(select9);
-				instance_destroy(portrait9);
-				global.c7Slot = false;
+				if(global.p2Char != 0)
+				{
+					global.p2Char = 0;
+				}
+				else
+				{
+					boxes[8].player = -1;
+					instance_destroy(select9);
+					instance_destroy(portrait9);
+					global.c8Slot = false;
+				}
 			}
 			break;
 	}
@@ -286,9 +338,9 @@ if(outgoingSlot > -2)
 }
 
 // Get player selections
-if(instance_exists(select1))
+for(i = 0; i < array_length_1d(charBoxes); i++)
 {
-	for(i = 0; i < array_length_1d(charBoxes); i++)
+	if(instance_exists(select1))
 	{
 		if(position_meeting(select1.x,select1.y,charBoxes[i]))
 		{
@@ -298,61 +350,115 @@ if(instance_exists(select1))
 			}
 		}
 	}
+	if(instance_exists(select2))
+	{
+		if(position_meeting(select2.x,select2.y,charBoxes[i]))
+		{
+			if(gamepad_button_check_pressed(0,gp_face1))
+			{
+				global.p2Char = i + 1;
+			}
+		}
+	}
+	if(instance_exists(select3))
+	{
+		if(position_meeting(select3.x,select3.y,charBoxes[i]))
+		{
+			if(gamepad_button_check_pressed(1,gp_face1))
+			{
+				global.p3Char = i + 1;
+			}
+		}
+	}
+	if(instance_exists(select4))
+	{
+		if(position_meeting(select4.x,select4.y,charBoxes[i]))
+		{
+			if(gamepad_button_check_pressed(2,gp_face1))
+			{
+				global.p4Char = i + 1;
+			}
+		}
+	}
+	if(instance_exists(select5))
+	{
+		if(position_meeting(select5.x,select5.y,charBoxes[i]))
+		{
+			if(gamepad_button_check_pressed(3,gp_face1))
+			{
+				global.p5Char = i + 1;
+			}
+		}
+	}
+	if(instance_exists(select6))
+	{
+		if(position_meeting(select6.x,select6.y,charBoxes[i]))
+		{
+			if(gamepad_button_check_pressed(4,gp_face1))
+			{
+				global.p6Char = i + 1;
+			}
+		}
+	}
+	if(instance_exists(select7))
+	{
+		if(position_meeting(select7.x,select7.y,charBoxes[i]))
+		{
+			if(gamepad_button_check_pressed(5,gp_face1))
+			{
+				global.p7Char = i + 1;
+			}
+		}
+	}
+	if(instance_exists(select8))
+	{
+		if(position_meeting(select8.x,select8.y,charBoxes[i]))
+		{
+			if(gamepad_button_check_pressed(6,gp_face1))
+			{
+				global.p8Char = i + 1;
+			}
+		}
+	}
+	if(instance_exists(select9))
+	{
+		if(position_meeting(select9.x,select9.y,charBoxes[i]))
+		{
+			if(gamepad_button_check_pressed(7,gp_face1))
+			{
+				global.p9Char = i + 1;
+			}
+		}
+	}
 }
 
+// Calculate number of players
+newPlayers = 0;
+if(global.p1Char != 0) newPlayers++;
+if(global.p2Char != 0) newPlayers++;
+if(global.p3Char != 0) newPlayers++;
+if(global.p4Char != 0) newPlayers++;
+if(global.p5Char != 0) newPlayers++;
+if(global.p6Char != 0) newPlayers++;
+if(global.p7Char != 0) newPlayers++;
+if(global.p8Char != 0) newPlayers++;
+if(global.p9Char != 0) newPlayers++;
+global.players = newPlayers;
 
-// Change player portraits
-/*
-if(instance_exists(portrait1))
+// Spawn fight banner if at least one player has joined
+if(global.players >= 1)
 {
-	if(global.p1Char == 1) portrait1.instance_destroy();
-	portrait1.image_index = global.p1Skin;
+	if(!bannerCreated)
+	{
+		instance_create_layer(0,164,"Elements",oFightBanner)
+		bannerCreated = true;
+	}
 }
-
-if(instance_exists(portrait2))
+else
 {
-	portrait2.sprite_index = characters[global.p2Char];
-	portrait2.image_index = global.p2Skin;
-}
-
-if(instance_exists(portrait3))
-{
-	portrait3.sprite_index = characters[global.p3Char];
-	portrait3.image_index = global.p3Skin;
-}
-
-if(instance_exists(portrait4))
-{
-	portrait4.sprite_index = characters[global.p4Char];
-	portrait4.image_index = global.p4Skin;
-}
-
-if(instance_exists(portrait5))
-{
-	portrait5.sprite_index = characters[global.p5Char];
-	portrait5.image_index = global.p5Skin;
-}
-
-if(instance_exists(portrait6))
-{
-	portrait6.sprite_index = characters[global.p6Char];
-	portrait6.image_index = global.p6Skin;
-}
-
-if(instance_exists(portrait7))
-{
-	portrait7.sprite_index = characters[global.p7Char];
-	portrait7.image_index = global.p7Skin;
-}
-
-if(instance_exists(portrait8))
-{
-	portrait8.sprite_index = characters[global.p8Char];
-	portrait8.image_index = global.p8Skin;
-}
-
-if(instance_exists(portrait9))
-{
-	portrait9.sprite_index = characters[global.p9Char];
-	portrait9.image_index = global.p9Skin;
+	if(bannerCreated)
+	{
+		instance_destroy(oFightBanner);
+		bannerCreated = false;
+	}
 }

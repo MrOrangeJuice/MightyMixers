@@ -6,16 +6,6 @@ key_right = 0;
 key_up = 0;
 key_down = 0;
 
-// Change to hover sprite
-if(hover)
-{
-	sprite_index = sSelectHover;	
-}
-else
-{
-	sprite_index = sSelect;	
-}
-
 // Change sprite depending on player color
 image_index = player;
 
@@ -55,9 +45,23 @@ else
 	key_down = keyboard_check(ord("S")) || keyboard_check(vk_down);
 }
 
-if(place_meeting(x,y,oCharacter))
+if(place_meeting(x,y,oCharacter) || place_meeting(x,y,oFightBanner))
+{
+	hover = true;	
+}
+else
+{
+	hover = false;	
+}
+
+// Change to hover sprite
+if(hover)
 {
 	sprite_index = sSelectHover;	
+}
+else
+{
+	sprite_index = sSelect;	
 }
 
 // Calculate cursor movement
