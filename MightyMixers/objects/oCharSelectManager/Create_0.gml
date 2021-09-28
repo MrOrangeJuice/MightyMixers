@@ -17,12 +17,14 @@ boxes = [box1,box2,box3,box4,box5,box6,box7,box8,box9];
 xSpawn = [40,110,180,250,320,390,460,530,600];
 
 // Spawn character boxes
-charBox0 = instance_create_layer(272,112,"Elements",oCharacter);
-charBox0.character = "betaman";
-charBox1 = instance_create_layer(368,112,"Elements",oCharacter);
-charBox1.character = "random";
+charBox0 = instance_create_layer(224,112,"Elements",oCharacter);
+charBox0.character = "drak";
+charBox1 = instance_create_layer(320,112,"Elements",oCharacter);
+charBox1.character = "canoli";
+charBox2 = instance_create_layer(416,112,"Elements",oCharacter);
+charBox2.character = "random";
 
-charBoxes = [charBox0,charBox1];
+charBoxes = [charBox0,charBox1,charBox2];
 
 select1 = 0;
 select2 = 0;
