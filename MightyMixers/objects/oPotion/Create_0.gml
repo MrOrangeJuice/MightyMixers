@@ -3,9 +3,13 @@
 hsp = 0;
 vsp = 0;
 grv = 0.4;
+timer = 0;
 
 function throwPotion(playerNum)
 {
+	image_xscale *= size;
+	image_yscale *= size;
+	
 	//calculating launch angle via mouse position or joystick orientation - needs updating for multiplayer
 	var launchAngle;
 	if(playerNum == 4)	//with currently implementation, only controller works right
@@ -18,9 +22,8 @@ function throwPotion(playerNum)
 	}
 	var outputstring = string(launchAngle);
 	show_debug_message(outputstring);
-	
-	hsp = airSpeed * cos(launchAngle);
-	vsp = airSpeed * sin(launchAngle) / weight;
+	hsp = 15 * cos(launchAngle) / weight;
+	vsp = 15 * sin(launchAngle) / weight;
 }
 
 

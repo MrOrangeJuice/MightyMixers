@@ -3,7 +3,6 @@
 
 //I think this will require changes once multiple input devices are being used simultaneously
 
-vsp = vsp + grv;
 
 
 //destroyed on collision - needs updating for detecting collision with other players
@@ -13,6 +12,12 @@ if(place_meeting(x, y, oWall))
 	instance_destroy();
 }
 
+vsp = vsp + (grv*weight);
+ timer += delta_time;
  
-x = x + hsp;
-y = y + vsp;
+ if(timer >= 60/airSpeed)
+ {
+	x = x + hsp;
+	y = y + vsp;
+	timer = 0;
+ }
