@@ -76,5 +76,5 @@ else{
 if(gamepad_button_check_pressed(0, gp_shoulderrb) || mouse_check_button_pressed(mb_left))
 {
 	potion = instance_create_layer(x, y, "potions", oPotion);
-	potion.weight = 4;
+	potion.throwPotion(0);
 }
