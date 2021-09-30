@@ -20,6 +20,7 @@
     {"id":{"name":"sScientist0_Run","path":"sprites/sScientist0_Run/sScientist0_Run.yy",},"order":16,},
     {"id":{"name":"sDrak1_Jump","path":"sprites/sDrak1_Jump/sDrak1_Jump.yy",},"order":10,},
     {"id":{"name":"Sprite12","path":"sprites/Sprite12/Sprite12.yy",},"order":15,},
+    {"id":{"name":"rGraybox1","path":"rooms/rGraybox1/rGraybox1.yy",},"order":2,},
     {"id":{"name":"sRandomPortrait","path":"sprites/sRandomPortrait/sRandomPortrait.yy",},"order":2,},
     {"id":{"name":"oCharSelectManager","path":"objects/oCharSelectManager/oCharSelectManager.yy",},"order":3,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":7,},
@@ -48,6 +49,7 @@
     {"id":{"name":"mscCharSelect","path":"sounds/mscCharSelect/mscCharSelect.yy",},"order":0,},
     {"id":{"name":"Sprite31","path":"sprites/Sprite31/Sprite31.yy",},"order":16,},
     {"id":{"name":"sScientist2_Jump","path":"sprites/sScientist2_Jump/sScientist2_Jump.yy",},"order":27,},
+    {"id":{"name":"Sprite36","path":"sprites/Sprite36/Sprite36.yy",},"order":15,},
     {"id":{"name":"sScientist2_Run","path":"sprites/sScientist2_Run/sScientist2_Run.yy",},"order":28,},
     {"id":{"name":"sScientist0_Jump","path":"sprites/sScientist0_Jump/sScientist0_Jump.yy",},"order":15,},
     {"id":{"name":"rCharSelect","path":"rooms/rCharSelect/rCharSelect.yy",},"order":0,},
@@ -72,6 +74,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rCharSelect","path":"rooms/rCharSelect/rCharSelect.yy",},},
+    {"roomId":{"name":"rGraybox1","path":"rooms/rGraybox1/rGraybox1.yy",},},
     {"roomId":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
   ],
   "Folders": [
