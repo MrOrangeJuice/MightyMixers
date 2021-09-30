@@ -19,7 +19,7 @@ if(room == rTest)
 	}
 	if(global.p3Char != 0)
 	{
-		player3 = instance_create_layer(150,512,"Instances",oCharPlayer);
+		player3 = instance_create_layer(180,512,"Instances",oCharPlayer);
 		player3.character = global.p3Char - 1;
 		player3.skin = global.p3Skin;
 		player3.controllerSlot = 0;
@@ -27,7 +27,7 @@ if(room == rTest)
 	}
 	if(global.p4Char != 0)
 	{
-		player4 = instance_create_layer(150,512,"Instances",oCharPlayer);
+		player4 = instance_create_layer(210,512,"Instances",oCharPlayer);
 		player4.character = global.p4Char - 1;
 		player4.skin = global.p4Skin;
 		player4.controllerSlot = 0;
@@ -35,7 +35,7 @@ if(room == rTest)
 	}
 	if(global.p5Char != 0)
 	{
-		player5 = instance_create_layer(150,512,"Instances",oCharPlayer);
+		player5 = instance_create_layer(240,512,"Instances",oCharPlayer);
 		player5.character = global.p5Char - 1;
 		player5.skin = global.p5Skin;
 		player5.controllerSlot = 0;
@@ -43,7 +43,7 @@ if(room == rTest)
 	}
 	if(global.p6Char != 0)
 	{
-		player6 = instance_create_layer(150,512,"Instances",oCharPlayer);
+		player6 = instance_create_layer(270,512,"Instances",oCharPlayer);
 		player6.character = global.p6Char - 1;
 		player6.skin = global.p6Skin;
 		player6.controllerSlot = 0;
@@ -51,7 +51,7 @@ if(room == rTest)
 	}
 	if(global.p7Char != 0)
 	{
-		player7 = instance_create_layer(150,512,"Instances",oCharPlayer);
+		player7 = instance_create_layer(300,512,"Instances",oCharPlayer);
 		player7.character = global.p7Char - 1;
 		player7.skin = global.p7Skin;
 		player7.controllerSlot = 0;
@@ -59,7 +59,7 @@ if(room == rTest)
 	}
 	if(global.p8Char != 0)
 	{
-		player8 = instance_create_layer(150,512,"Instances",oCharPlayer);
+		player8 = instance_create_layer(330,512,"Instances",oCharPlayer);
 		player8.character = global.p8Char - 1;
 		player8.skin = global.p8Skin;
 		player8.controllerSlot = 0;
@@ -67,7 +67,7 @@ if(room == rTest)
 	}
 	if(global.p9Char != 0)
 	{
-		player9 = instance_create_layer(150,512,"Instances",oCharPlayer);
+		player9 = instance_create_layer(360,512,"Instances",oCharPlayer);
 		player9.character = global.p2Char - 1;
 		player9.skin = global.p2Skin;
 		player9.controllerSlot = 0;
