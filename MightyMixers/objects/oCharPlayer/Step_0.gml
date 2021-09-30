@@ -73,7 +73,7 @@ else{
 }
 
 //potion throwing - add code to check player num later - add code to check throwingSpeed of selected potion
-if(gamepad_button_check_pressed(0, gp_shoulderrb) || mouse_check_button_pressed(mb_left))	//to implement - throwing speed
+if(gamepad_button_check_pressed(0, gp_shoulderrb) || mouse_check_button_pressed(mb_left))
 {
 	potion = instance_create_layer(x, y, "potions", oPotion);
 	potion.throwPotion(0);
