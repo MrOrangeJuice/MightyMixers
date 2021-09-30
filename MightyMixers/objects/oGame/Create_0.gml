@@ -22,6 +22,8 @@ global.p7Char = 0;
 global.p8Char = 0;
 global.p9Char = 0;
 
+global.pChars = [global.p1Char,global.p2Char,global.p3Char,global.p4Char,global.p5Char,global.p6Char,global.p7Char,global.p8Char,global.p9Char];
+
 global.p1Skin = 0;
 global.p2Skin = 0;
 global.p3Skin = 0;
@@ -31,3 +33,5 @@ global.p6Skin = 0;
 global.p7Skin = 0;
 global.p8Skin = 0;
 global.p9Skin = 0;
+
+global.pSkins = [global.p1Skin,global.p2Skin,global.p3Skin,global.p4Skin,global.p5Skin,global.p6Skin,global.p7Skin,global.p8Skin,global.p9Skin];
