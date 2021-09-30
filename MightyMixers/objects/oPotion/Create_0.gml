@@ -12,7 +12,7 @@ function throwPotion(playerNum)
 	
 	//calculating launch angle via mouse position or joystick orientation - needs updating for multiplayer
 	var launchAngle;
-	if(playerNum == 4)	//with currently implementation, only controller works right
+	if(playerNum == 0)	//with currently implementation, only controller works right
 	{
 		launchAngle = arctan2(mouse_y - oCharPlayer.y, mouse_x - oCharPlayer.x);
 	}

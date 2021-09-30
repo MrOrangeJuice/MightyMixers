@@ -9,25 +9,49 @@ var sprites = [ // 3D array that stores all sprites - [character index][skin ind
 	[sScientist1_Idle, sScientist1_Run, sScientist1_Jump],
 	[sScientist2_Idle, sScientist2_Run, sScientist2_Jump]]];
 
-key_left = keyboard_check(ord("A"));
-key_right = keyboard_check(ord("D"));
-key_jump = keyboard_check(vk_space);
-key_toggle1 = keyboard_check_pressed(ord("1"));
-key_toggle2 = keyboard_check_pressed(ord("2"));
+key_left = 0;
+key_right = 0;
+key_jump = 0;
+key_throw = 0;
+
+if(keyboard)
+{
+	key_left = keyboard_check(ord("A"));
+	key_right = keyboard_check(ord("D"));
+	key_jump = keyboard_check(vk_space);
+	key_throw =  mouse_check_button_pressed(mb_left);
+}
+else
+{
+	// Get controller inputs
+	
+	// Left
+	if (gamepad_axis_value(controllerSlot,gp_axislh) < -0.2)
+	{
+		key_left = abs(gamepad_axis_value(controllerSlot,gp_axislh));
+	}
+	
+	// Right
+	if (gamepad_axis_value(controllerSlot,gp_axislh) > 0.2)
+	{
+		key_right = abs(gamepad_axis_value(controllerSlot,gp_axislh));
+	}
+	
+	// Jump
+	if (gamepad_button_check(controllerSlot,gp_face1))
+	{
+		key_jump = 1;
+	}
+	
+	if (gamepad_button_check_pressed(controllerSlot, gp_shoulderrb))
+	{
+		key_throw = 1;
+	}
+}
 
 var move = key_right - key_left;
 hsp = move * walksp;
 vsp = vsp + grv;
-
-if(key_toggle1){
-	if(character < array_length(sprites) - 1) character ++;
-	else character = 0;
-	skin = 0;
-}
-if(key_toggle2){
-	if(skin < array_length(sprites[character]) - 1) skin ++;
-	else skin = 0;
-}
 
 //jump
 if(place_meeting(x, y + 1, oWall)) && (key_jump){
@@ -73,8 +97,8 @@ else{
 }
 
 //potion throwing - add code to check player num later - add code to check throwingSpeed of selected potion
-if(gamepad_button_check_pressed(0, gp_shoulderrb) || mouse_check_button_pressed(mb_left))	//to implement - throwing speed
+if(key_throw)	//to implement - throwing speed
 {
 	potion = instance_create_layer(x, y, "potions", oPotion);
-	potion.throwPotion(0);
+	potion.throwPotion(player);
 }
