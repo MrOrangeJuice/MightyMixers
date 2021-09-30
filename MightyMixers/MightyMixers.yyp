@@ -46,6 +46,7 @@
     {"id":{"name":"sFightBanner","path":"sprites/sFightBanner/sFightBanner.yy",},"order":12,},
     {"id":{"name":"sDrak2_Big","path":"sprites/sDrak2_Big/sDrak2_Big.yy",},"order":33,},
     {"id":{"name":"sDrak0_Run","path":"sprites/sDrak0_Run/sDrak0_Run.yy",},"order":8,},
+    {"id":{"name":"sCanoliPortrait","path":"sprites/sCanoliPortrait/sCanoliPortrait.yy",},"order":4,},
     {"id":{"name":"sDrak2_Run","path":"sprites/sDrak2_Run/sDrak2_Run.yy",},"order":13,},
     {"id":{"name":"oSelect","path":"objects/oSelect/oSelect.yy",},"order":1,},
     {"id":{"name":"mscCharSelect","path":"sounds/mscCharSelect/mscCharSelect.yy",},"order":0,},
@@ -53,7 +54,9 @@
     {"id":{"name":"sScientist2_Jump","path":"sprites/sScientist2_Jump/sScientist2_Jump.yy",},"order":27,},
     {"id":{"name":"sDrak0_Big","path":"sprites/sDrak0_Big/sDrak0_Big.yy",},"order":31,},
     {"id":{"name":"sScientist2_Run","path":"sprites/sScientist2_Run/sScientist2_Run.yy",},"order":28,},
+    {"id":{"name":"sScientist2_Big","path":"sprites/sScientist2_Big/sScientist2_Big.yy",},"order":35,},
     {"id":{"name":"sScientist0_Jump","path":"sprites/sScientist0_Jump/sScientist0_Jump.yy",},"order":15,},
+    {"id":{"name":"sScientist1_Big","path":"sprites/sScientist1_Big/sScientist1_Big.yy",},"order":34,},
     {"id":{"name":"rCharSelect","path":"rooms/rCharSelect/rCharSelect.yy",},"order":0,},
   ],
   "Options": [
@@ -104,7 +107,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.583",
+    "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
   "name": "MightyMixers",
