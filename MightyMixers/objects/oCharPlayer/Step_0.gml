@@ -54,7 +54,8 @@ hsp = move * walksp;
 vsp = vsp + grv;
 
 //jump
-if(place_meeting(x, y + 1, oWall)) && (key_jump){
+if(place_meeting(x, y + 1, oWall)) && (key_jump) {
+	audio_play_sound(jump,5,false);
 	vsp = jumpForce;
 }
 
@@ -99,6 +100,7 @@ else{
 //potion throwing - add code to check player num later - add code to check throwingSpeed of selected potion
 if(key_throw)	//to implement - throwing speed
 {
+	audio_play_sound(snd_Throw,5,false);
 	//var outputstring1 = string(controllerSlot);
 	//show_debug_message(controllerSlot);
 	

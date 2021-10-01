@@ -119,4 +119,5 @@ if(other.player != player)
 		}
 	}
 	instance_destroy();
+	audio_play_sound(snd_PotionBreak,5,false);
 }
