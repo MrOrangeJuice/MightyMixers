@@ -53,6 +53,7 @@
     {"id":{"name":"mscCharSelect","path":"sounds/mscCharSelect/mscCharSelect.yy",},"order":0,},
     {"id":{"name":"Sprite31","path":"sprites/Sprite31/Sprite31.yy",},"order":16,},
     {"id":{"name":"sScientist2_Jump","path":"sprites/sScientist2_Jump/sScientist2_Jump.yy",},"order":27,},
+    {"id":{"name":"oHealthbar","path":"objects/oHealthbar/oHealthbar.yy",},"order":11,},
     {"id":{"name":"sHeart","path":"sprites/sHeart/sHeart.yy",},"order":15,},
     {"id":{"name":"sDrak0_Big","path":"sprites/sDrak0_Big/sDrak0_Big.yy",},"order":31,},
     {"id":{"name":"sScientist2_Run","path":"sprites/sScientist2_Run/sScientist2_Run.yy",},"order":28,},

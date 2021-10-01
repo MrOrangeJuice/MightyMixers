@@ -113,3 +113,12 @@ if(key_throw)	//to implement - throwing speed
 	}
 	potion.player = player
 }
+
+switch(character){
+	case "0":
+		portrait.character = "drak";
+		break;
+	case "1":
+		portrait.character = "canoli";
+		break;
+}
