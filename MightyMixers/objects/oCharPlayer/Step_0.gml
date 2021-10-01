@@ -103,5 +103,12 @@ if(key_throw)	//to implement - throwing speed
 	//show_debug_message(controllerSlot);
 	
 	potion = instance_create_layer(x, y, "potions", oPotion);
-	potion.throwPotion(controllerSlot, x, y);
+	if(!keyboard)
+	{
+		potion.throwPotion(controllerSlot, x, y);
+	}
+	else
+	{
+		potion.throwPotion(-1, x, y);
+	}
 }
