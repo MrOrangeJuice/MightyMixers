@@ -99,6 +99,9 @@ else{
 //potion throwing - add code to check player num later - add code to check throwingSpeed of selected potion
 if(key_throw)	//to implement - throwing speed
 {
+	//var outputstring1 = string(controllerSlot);
+	//show_debug_message(controllerSlot);
+	
 	potion = instance_create_layer(x, y, "potions", oPotion);
 	potion.throwPotion(controllerSlot, x, y);
 }
