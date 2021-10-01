@@ -46,6 +46,9 @@ global.p7Health = 0;
 global.p8Health = 0;
 global.p9Health = 0;
 
+global.stockCount = 3;
+global.healthCount = 140;
+
 global.p1Stocks = 0;
 global.p2Stocks = 0;
 global.p3Stocks = 0;

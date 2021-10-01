@@ -8,8 +8,8 @@ if(room != rCharSelect)
 		player1.skin = global.p1Skin;
 		player1.keyboard = true;
 		player1.player = 0;
-		global.p1Health = 100;
-		global.p1Stocks = 3;
+		global.p1Health = global.healthCount;
+		global.p1Stocks = global.stockCount;
 	}
 	if(global.p2Char != 0)
 	{
@@ -18,8 +18,8 @@ if(room != rCharSelect)
 		player2.skin = global.p2Skin;
 		player2.controllerSlot = 0;
 		player2.player = 1;
-		global.p2Health = 100;
-		global.p2Stocks = 3;
+		global.p2Health = global.healthCount;
+		global.p2Stocks = global.stockCount;
 	}
 	if(global.p3Char != 0)
 	{
@@ -28,8 +28,8 @@ if(room != rCharSelect)
 		player3.skin = global.p3Skin;
 		player3.controllerSlot = 1;
 		player3.player = 1;
-		global.p3Health = 100;
-		global.p3Stocks = 3;
+		global.p3Health = global.healthCount;
+		global.p3Stocks = global.stockCount;
 	}
 	if(global.p4Char != 0)
 	{
@@ -38,8 +38,8 @@ if(room != rCharSelect)
 		player4.skin = global.p4Skin;
 		player4.controllerSlot = 2;
 		player4.player = 1;
-		global.p4Health = 100;
-		global.p4Stocks = 3;
+		global.p4Health = global.healthCount;
+		global.p4Stocks = global.stockCount;
 	}
 	if(global.p5Char != 0)
 	{
@@ -48,8 +48,8 @@ if(room != rCharSelect)
 		player5.skin = global.p5Skin;
 		player5.controllerSlot = 3;
 		player5.player = 1;
-		global.p5Health = 100;
-		global.p5Stocks = 3;
+		global.p5Health = global.healthCount;
+		global.p5Stocks = global.stockCount;
 	}
 	if(global.p6Char != 0)
 	{
@@ -58,8 +58,8 @@ if(room != rCharSelect)
 		player6.skin = global.p6Skin;
 		player6.controllerSlot = 4;
 		player6.player = 1;
-		global.p6Health = 100;
-		global.p6Stocks = 3;
+		global.p6Health = global.healthCount;
+		global.p6Stocks = global.stockCount;
 	}
 	if(global.p7Char != 0)
 	{
@@ -68,8 +68,8 @@ if(room != rCharSelect)
 		player7.skin = global.p7Skin;
 		player7.controllerSlot = 5;
 		player7.player = 1;
-		global.p7Health = 100;
-		global.p7Stocks = 3;
+		global.p7Health = global.healthCount;
+		global.p7Stocks = global.stockCount;
 	}
 	if(global.p8Char != 0)
 	{
@@ -78,8 +78,8 @@ if(room != rCharSelect)
 		player8.skin = global.p8Skin;
 		player8.controllerSlot = 6;
 		player8.player = 1;
-		global.p8Health = 100;
-		global.p8Stocks = 3;
+		global.p8Health = global.healthCount;
+		global.p8Stocks = global.stockCount;
 	}
 	if(global.p9Char != 0)
 	{
@@ -88,7 +88,7 @@ if(room != rCharSelect)
 		player9.skin = global.p9Skin;
 		player9.controllerSlot = 7;
 		player9.player = 1;
-		global.p9Health = 100;
-		global.p9Stocks = 3;
+		global.p9Health = global.healthCount;
+		global.p9Stocks = global.stockCount;
 	}
 }

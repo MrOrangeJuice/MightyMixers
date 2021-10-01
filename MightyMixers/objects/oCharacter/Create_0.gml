@@ -6,6 +6,12 @@ switch(character)
 	case "betaman":
 		sprite_index = sBetaManCSS;
 		break;
+	case "drak":
+		sprite_index = sDrakCSS;
+		break;
+	case "canoli":
+		sprite_index = sCanoliCSS;
+		break;
 	case "random":
 		sprite_index = sRandomCSS;
 		break;
