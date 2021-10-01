@@ -22,7 +22,7 @@ if(room != rCharSelect)
 		player3 = instance_create_layer(180,180,"Instances",oCharPlayer);
 		player3.character = global.p3Char - 1;
 		player3.skin = global.p3Skin;
-		player3.controllerSlot = 0;
+		player3.controllerSlot = 1;
 		player3.player = 1;
 	}
 	if(global.p4Char != 0)
@@ -30,7 +30,7 @@ if(room != rCharSelect)
 		player4 = instance_create_layer(210,180,"Instances",oCharPlayer);
 		player4.character = global.p4Char - 1;
 		player4.skin = global.p4Skin;
-		player4.controllerSlot = 0;
+		player4.controllerSlot = 2;
 		player4.player = 1;
 	}
 	if(global.p5Char != 0)
@@ -38,7 +38,7 @@ if(room != rCharSelect)
 		player5 = instance_create_layer(240,180,"Instances",oCharPlayer);
 		player5.character = global.p5Char - 1;
 		player5.skin = global.p5Skin;
-		player5.controllerSlot = 0;
+		player5.controllerSlot = 3;
 		player5.player = 1;
 	}
 	if(global.p6Char != 0)
@@ -46,7 +46,7 @@ if(room != rCharSelect)
 		player6 = instance_create_layer(270,180,"Instances",oCharPlayer);
 		player6.character = global.p6Char - 1;
 		player6.skin = global.p6Skin;
-		player6.controllerSlot = 0;
+		player6.controllerSlot = 4;
 		player6.player = 1;
 	}
 	if(global.p7Char != 0)
@@ -54,7 +54,7 @@ if(room != rCharSelect)
 		player7 = instance_create_layer(300,180,"Instances",oCharPlayer);
 		player7.character = global.p7Char - 1;
 		player7.skin = global.p7Skin;
-		player7.controllerSlot = 0;
+		player7.controllerSlot = 5;
 		player7.player = 1;
 	}
 	if(global.p8Char != 0)
@@ -62,7 +62,7 @@ if(room != rCharSelect)
 		player8 = instance_create_layer(330,180,"Instances",oCharPlayer);
 		player8.character = global.p8Char - 1;
 		player8.skin = global.p8Skin;
-		player8.controllerSlot = 0;
+		player8.controllerSlot = 6;
 		player8.player = 1;
 	}
 	if(global.p9Char != 0)
@@ -70,7 +70,7 @@ if(room != rCharSelect)
 		player9 = instance_create_layer(360,180,"Instances",oCharPlayer);
 		player9.character = global.p9Char - 1;
 		player9.skin = global.p9Skin;
-		player9.controllerSlot = 0;
+		player9.controllerSlot = 7;
 		player9.player = 1;
 	}
 }
