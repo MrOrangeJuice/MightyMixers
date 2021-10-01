@@ -10,3 +10,4 @@ keyboard = false;
 controllerSlot = 0;
 player = 0;
 jumpForce = -6;
+

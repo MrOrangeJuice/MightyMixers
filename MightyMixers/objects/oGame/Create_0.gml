@@ -35,3 +35,23 @@ global.p8Skin = 0;
 global.p9Skin = 0;
 
 global.pSkins = [global.p1Skin,global.p2Skin,global.p3Skin,global.p4Skin,global.p5Skin,global.p6Skin,global.p7Skin,global.p8Skin,global.p9Skin];
+
+global.p1Health = 0;
+global.p2Health = 0;
+global.p3Health = 0;
+global.p4Health = 0;
+global.p5Health = 0;
+global.p6Health = 0;
+global.p7Health = 0;
+global.p8Health = 0;
+global.p9Health = 0;
+
+global.p1Stocks = 0;
+global.p2Stocks = 0;
+global.p3Stocks = 0;
+global.p4Stocks = 0;
+global.p5Stocks = 0;
+global.p6Stocks = 0;
+global.p7Stocks = 0;
+global.p8Stocks = 0;
+global.p9Stocks = 0;

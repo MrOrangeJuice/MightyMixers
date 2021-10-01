@@ -4,6 +4,7 @@ hsp = 0;
 vsp = 0;
 grv = 0.4;
 timer = 0;
+player = 0;
 
 function throwPotion(controllerSlot, xPos, yPos)
 {
