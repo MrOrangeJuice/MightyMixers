@@ -111,7 +111,7 @@ if(key_throw)	//to implement - throwing speed
 	{
 		potion.throwPotion(-1, x, y);
 	}
-	potion.player = player
+	potion.player = player;
 }
 
 /*
