@@ -1,5 +1,5 @@
 /// @description Collide with other player
-if(other.player != player)
+if(other.player != player)	//adjust so damage is equivalent to potion damage variable
 {
 	if(other.player == 0) 
 	{
