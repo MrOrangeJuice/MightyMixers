@@ -11,6 +11,10 @@ controllerSlot = 0;
 player = 0;
 jumpForce = -6;
 
+
+maxThrowTime = 1.0;	//time between throws
+throwTimer = maxThrowTime;	//counting time since last throw, starts above throw time so you can throw from start
+
 /*
 hbarX = (120 * player) + 60;
 healthbar = instance_create_layer(hbarX,323,"Hud", oHealthbar);
