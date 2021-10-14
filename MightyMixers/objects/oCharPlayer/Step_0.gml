@@ -98,11 +98,9 @@ else{
 }
 
 throwTimer += delta_time / 1000000;	//counting time since last throw
-var outputstring1 = string(throwTimer);
-show_debug_message(outputstring1);
 
 //potion throwing - add code to check throwingSpeed of selected potion
-if(key_throw)	//to implement - throwing speed
+if(key_throw)
 {
 	if(throwTimer >= maxThrowTime)
 	{
