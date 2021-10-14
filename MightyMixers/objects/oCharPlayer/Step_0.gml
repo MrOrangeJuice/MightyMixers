@@ -97,23 +97,30 @@ else{
 	}
 }
 
-//potion throwing - add code to check player num later - add code to check throwingSpeed of selected potion
+throwTimer += delta_time / 1000000;	//counting time since last throw
+var outputstring1 = string(throwTimer);
+show_debug_message(outputstring1);
+
+//potion throwing - add code to check throwingSpeed of selected potion
 if(key_throw)	//to implement - throwing speed
 {
-	audio_play_sound(snd_Throw,5,false);
-	//var outputstring1 = string(controllerSlot);
-	//show_debug_message(controllerSlot);
-	
-	potion = instance_create_layer(x, y, "potions", oPotion);
-	if(!keyboard)
+	if(throwTimer >= maxThrowTime)
 	{
-		potion.throwPotion(controllerSlot, x, y);
+		throwTimer = 0.0;	//resets time since last throw
+		
+		audio_play_sound(snd_Throw,5,false);
+		
+		potion = instance_create_layer(x, y, "potions", oPotion);
+		if(!keyboard)
+		{
+			potion.throwPotion(controllerSlot, x, y);
+		}
+		else
+		{
+			potion.throwPotion(-1, x, y);
+		}
+		potion.player = player;
 	}
-	else
-	{
-		potion.throwPotion(-1, x, y);
-	}
-	potion.player = player;
 }
 
 /*
