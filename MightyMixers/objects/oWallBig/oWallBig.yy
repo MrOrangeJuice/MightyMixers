@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sWallSmall",
-    "path": "sprites/sWallSmall/sWallSmall.yy",
+    "name": "sWall",
+    "path": "sprites/sWall/sWall.yy",
   },
   "solid": true,
   "visible": true,
@@ -33,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oWallSmall",
+  "name": "oWallBig",
   "tags": [],
   "resourceType": "GMObject",
 }
