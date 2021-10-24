@@ -1,5 +1,5 @@
 /// @description Spawn players
-if(room != rCharSelect)
+if(room != rCharSelect && room != rMinigames)
 {
 	audio_stop_sound(msc_CSS);
 	audio_play_sound(msc_Combat,5,true);

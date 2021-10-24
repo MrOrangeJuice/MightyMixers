@@ -59,6 +59,11 @@ if(place_meeting(x, y + 1, oWall)) && (key_jump) {
 	vsp = jumpForce;
 }
 
+if vsp < 0 && (!(key_jump)) //if you're moving upwards in the air but not holding down jump
+{
+	vsp *= 0.85; //essentially, divide your vertical speed
+}
+
 //x collision
 if(place_meeting(x + hsp, y, oWall)){
 	while(!place_meeting(x + sign(hsp), y, oWall)){
