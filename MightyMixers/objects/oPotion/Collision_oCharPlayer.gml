@@ -11,7 +11,7 @@ if(other.player != player)
 		}
 		if(global.p1Stocks <= 0)
 		{
-			instance_destroy();	
+			instance_destroy(other);	
 		}
 	}
 	if(other.player == 1) 
@@ -24,7 +24,7 @@ if(other.player != player)
 		}
 		if(global.p2Stocks <= 0)
 		{
-			instance_destroy();	
+			instance_destroy(other);		
 		}
 	}
 	if(other.player == 2) 
@@ -37,7 +37,7 @@ if(other.player != player)
 		}
 		if(global.p3Stocks <= 0)
 		{
-			instance_destroy();	
+			instance_destroy(other);		
 		}
 	}
 	if(other.player == 3) 
@@ -50,7 +50,7 @@ if(other.player != player)
 		}
 		if(global.p4Stocks <= 0)
 		{
-			instance_destroy();	
+			instance_destroy(other);		
 		}
 	}
 	if(other.player == 4) 
@@ -63,7 +63,7 @@ if(other.player != player)
 		}
 		if(global.p5Stocks <= 0)
 		{
-			instance_destroy();	
+			instance_destroy(other);		
 		}
 	}
 	if(other.player == 5) 
@@ -76,7 +76,7 @@ if(other.player != player)
 		}
 		if(global.p6Stocks <= 0)
 		{
-			instance_destroy();	
+			instance_destroy(other);		
 		}
 	}
 	if(other.player == 6) 
@@ -89,7 +89,7 @@ if(other.player != player)
 		}
 		if(global.p7Stocks <= 0)
 		{
-			instance_destroy();	
+			instance_destroy(other);		
 		}
 	}
 	if(other.player == 7) 
@@ -102,7 +102,7 @@ if(other.player != player)
 		}
 		if(global.p8Stocks <= 0)
 		{
-			instance_destroy();	
+			instance_destroy(other);			
 		}
 	}
 	if(other.player == 8) 
@@ -115,7 +115,7 @@ if(other.player != player)
 		}
 		if(global.p9Stocks <= 0)
 		{
-			instance_destroy();	
+			instance_destroy(other);		
 		}
 	}
 	instance_destroy();

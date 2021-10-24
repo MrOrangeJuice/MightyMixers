@@ -100,6 +100,7 @@ if(incomingSlot > -2)
 				select2 = instance_create_layer(xSpawn[1],288,"Select",oSelect);
 				portrait2 = instance_create_layer(xSpawn[1],276,"Elements",oBoxPortrait);
 				select2.player = 1;
+				select2.controllerSlot = 0;
 				portrait2.player = 1;
 				global.c1Slot = true;
 			}
@@ -111,6 +112,7 @@ if(incomingSlot > -2)
 				select3 = instance_create_layer(xSpawn[2],288,"Select",oSelect);
 				portrait3 = instance_create_layer(xSpawn[2],276,"Elements",oBoxPortrait);
 				select3.player = 2;
+				select3.controllerSlot = 1;
 				portrait3.player = 2;
 				global.c2Slot = true;
 			}
@@ -122,6 +124,7 @@ if(incomingSlot > -2)
 				select4 = instance_create_layer(xSpawn[3],288,"Select",oSelect);
 				portrait4 = instance_create_layer(xSpawn[3],276,"Elements",oBoxPortrait);
 				select4.player = 3;
+				select4.controllerSlot = 2;
 				portrait4.player = 3;
 				global.c3Slot = true;
 			}
@@ -133,6 +136,7 @@ if(incomingSlot > -2)
 				select5 = instance_create_layer(xSpawn[4],288,"Select",oSelect);
 				portrait5 = instance_create_layer(xSpawn[4],276,"Elements",oBoxPortrait);
 				select5.player = 4;
+				select5.controllerSlot = 3;
 				portrait5.player = 4;
 				global.c4Slot = true;
 			}
@@ -144,6 +148,7 @@ if(incomingSlot > -2)
 				select6 = instance_create_layer(xSpawn[5],288,"Select",oSelect);
 				portrait6 = instance_create_layer(xSpawn[5],276,"Elements",oBoxPortrait);
 				select6.player = 5;
+				select6.controllerSlot = 4;
 				portrait6.player = 5;
 				global.c5Slot = true;
 			}
@@ -155,6 +160,7 @@ if(incomingSlot > -2)
 				select7 = instance_create_layer(xSpawn[6],288,"Select",oSelect);
 				portrait7 = instance_create_layer(xSpawn[6],276,"Elements",oBoxPortrait);
 				select7.player = 6;
+				select7.controllerSlot = 5;
 				portrait7.player = 6;
 				global.c6Slot = true;
 			}
@@ -166,6 +172,7 @@ if(incomingSlot > -2)
 				select8 = instance_create_layer(xSpawn[7],288,"Select",oSelect);
 				portrait8 = instance_create_layer(xSpawn[7],276,"Elements",oBoxPortrait);
 				select8.player = 7;
+				select8.controllerSlot = 6;
 				portrait8.player = 7;
 				global.c7Slot = true;
 			}
@@ -177,6 +184,7 @@ if(incomingSlot > -2)
 				select9 = instance_create_layer(xSpawn[8],288,"Select",oSelect);
 				portrait9 = instance_create_layer(xSpawn[8],276,"Elements",oBoxPortrait);
 				select9.player = 8;
+				select9.controllerSlot = 7;
 				portrait9.player = 8;
 				global.c8Slot = true;
 			}

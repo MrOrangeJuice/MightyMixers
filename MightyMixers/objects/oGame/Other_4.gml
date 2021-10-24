@@ -1,6 +1,8 @@
 /// @description Spawn players
 if(room != rCharSelect)
 {
+	audio_stop_sound(msc_CSS);
+	audio_play_sound(msc_Combat,5,true);
 	if(global.p1Char != 0)
 	{
 		player1 = instance_create_layer(120,180,"Instances",oCharPlayer);
@@ -27,7 +29,7 @@ if(room != rCharSelect)
 		player3.character = global.p3Char - 1;
 		player3.skin = global.p3Skin;
 		player3.controllerSlot = 1;
-		player3.player = 1;
+		player3.player = 2;
 		global.p3Health = global.healthCount;
 		global.p3Stocks = global.stockCount;
 	}
@@ -37,7 +39,7 @@ if(room != rCharSelect)
 		player4.character = global.p4Char - 1;
 		player4.skin = global.p4Skin;
 		player4.controllerSlot = 2;
-		player4.player = 1;
+		player4.player = 3;
 		global.p4Health = global.healthCount;
 		global.p4Stocks = global.stockCount;
 	}
@@ -47,7 +49,7 @@ if(room != rCharSelect)
 		player5.character = global.p5Char - 1;
 		player5.skin = global.p5Skin;
 		player5.controllerSlot = 3;
-		player5.player = 1;
+		player5.player = 4;
 		global.p5Health = global.healthCount;
 		global.p5Stocks = global.stockCount;
 	}
@@ -57,7 +59,7 @@ if(room != rCharSelect)
 		player6.character = global.p6Char - 1;
 		player6.skin = global.p6Skin;
 		player6.controllerSlot = 4;
-		player6.player = 1;
+		player6.player = 5;
 		global.p6Health = global.healthCount;
 		global.p6Stocks = global.stockCount;
 	}
@@ -67,7 +69,7 @@ if(room != rCharSelect)
 		player7.character = global.p7Char - 1;
 		player7.skin = global.p7Skin;
 		player7.controllerSlot = 5;
-		player7.player = 1;
+		player7.player = 6;
 		global.p7Health = global.healthCount;
 		global.p7Stocks = global.stockCount;
 	}
@@ -77,7 +79,7 @@ if(room != rCharSelect)
 		player8.character = global.p8Char - 1;
 		player8.skin = global.p8Skin;
 		player8.controllerSlot = 6;
-		player8.player = 1;
+		player8.player = 7;
 		global.p8Health = global.healthCount;
 		global.p8Stocks = global.stockCount;
 	}
@@ -87,8 +89,13 @@ if(room != rCharSelect)
 		player9.character = global.p9Char - 1;
 		player9.skin = global.p9Skin;
 		player9.controllerSlot = 7;
-		player9.player = 1;
+		player9.player = 8;
 		global.p9Health = global.healthCount;
 		global.p9Stocks = global.stockCount;
 	}
+}
+else
+{
+	audio_stop_sound(msc_Combat);
+	audio_play_sound(msc_CSS,5,true);	
 }
