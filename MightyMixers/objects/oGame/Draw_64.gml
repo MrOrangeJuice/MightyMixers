@@ -1,5 +1,5 @@
 /// @description Draw HUD
-if(room != rCharSelect && room != rMinigames)
+if(room == rCave)
 {
 	if(global.p1Char != 0)
 	{

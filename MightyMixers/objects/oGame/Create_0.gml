@@ -13,6 +13,7 @@ global.c5Slot = false;
 global.c6Slot = false;
 global.c7Slot = false;
 global.c8Slot = false;
+global.cSlots = [false, false, false, false, false, false, false, false];
 
 global.p1Char = 0;
 global.p2Char = 0;
@@ -48,6 +49,8 @@ global.p7Health = 0;
 global.p8Health = 0;
 global.p9Health = 0;
 
+global.pHealths = [0, 0, 0, 0, 0, 0, 0, 0, 0];
+
 global.stockCount = 3;
 global.healthCount = 140;
 
@@ -60,3 +63,5 @@ global.p6Stocks = 0;
 global.p7Stocks = 0;
 global.p8Stocks = 0;
 global.p9Stocks = 0;
+
+global.pStocks = [0, 0, 0, 0, 0, 0, 0, 0, 0];

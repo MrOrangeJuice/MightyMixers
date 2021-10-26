@@ -1,8 +1,15 @@
 /// @description Spawn players
-if(room != rCharSelect && room != rMinigames)
+if(room == rCave)
 {
 	audio_stop_sound(msc_CSS);
 	audio_play_sound(msc_Combat,5,true);
+	
+	/*for(i = 0; i < 9; i++){
+		if(global.pChars[i] != 0){
+			p
+		}
+	}*/
+	
 	if(global.p1Char != 0)
 	{
 		player1 = instance_create_layer(120,180,"Instances",oCharPlayer);
