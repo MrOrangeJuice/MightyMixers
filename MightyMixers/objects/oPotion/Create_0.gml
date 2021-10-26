@@ -26,7 +26,7 @@ function throwPotion(controllerSlot, xPos, yPos)
 	{
 		//var outputstring1 = string(controllerSlot);
 		//show_debug_message(controllerSlot);
-		launchAngle = arctan2(gamepad_axis_value(controllerSlot, gp_axisrv), gamepad_axis_value(controllerSlot, gp_axisrh));
+		launchAngle = arctan2(gamepad_axis_value(controllerSlot, gp_axislv), gamepad_axis_value(controllerSlot, gp_axislh));
 	}
 	
 	hsp = 15 * cos(launchAngle) / weight;

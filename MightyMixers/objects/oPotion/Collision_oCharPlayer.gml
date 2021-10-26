@@ -3,7 +3,7 @@ if(other.player != player)	//adjust so damage is equivalent to potion damage var
 {
 	if(other.player == 0) 
 	{
-		global.p1Health -= 20;
+		global.p1Health -= damage;
 		if(global.p1Health <= 0)
 		{
 			global.p1Stocks--;
@@ -16,7 +16,7 @@ if(other.player != player)	//adjust so damage is equivalent to potion damage var
 	}
 	if(other.player == 1) 
 	{
-		global.p2Health -= 20;
+		global.p2Health -= damage;
 		if(global.p2Health <= 0)
 		{
 			global.p2Stocks--;
@@ -29,7 +29,7 @@ if(other.player != player)	//adjust so damage is equivalent to potion damage var
 	}
 	if(other.player == 2) 
 	{
-		global.p3Health -= 20;
+		global.p3Health -= damage;
 		if(global.p3Health <= 0)
 		{
 			global.p3Stocks--;
@@ -42,7 +42,7 @@ if(other.player != player)	//adjust so damage is equivalent to potion damage var
 	}
 	if(other.player == 3) 
 	{
-		global.p4Health -= 20;
+		global.p4Health -= damage;
 		if(global.p4Health <= 0)
 		{
 			global.p4Stocks--;
@@ -55,7 +55,7 @@ if(other.player != player)	//adjust so damage is equivalent to potion damage var
 	}
 	if(other.player == 4) 
 	{
-		global.p5Health -= 20;
+		global.p5Health -= damage;
 		if(global.p5Health <= 0)
 		{
 			global.p5Stocks--;
@@ -68,7 +68,7 @@ if(other.player != player)	//adjust so damage is equivalent to potion damage var
 	}
 	if(other.player == 5) 
 	{
-		global.p6Health -= 20;
+		global.p6Health -= damage;
 		if(global.p6Health <= 0)
 		{
 			global.p6Stocks--;
@@ -81,7 +81,7 @@ if(other.player != player)	//adjust so damage is equivalent to potion damage var
 	}
 	if(other.player == 6) 
 	{
-		global.p7Health -= 20;
+		global.p7Health -= damage;
 		if(global.p7Health <= 0)
 		{
 			global.p7Stocks--;
@@ -94,7 +94,7 @@ if(other.player != player)	//adjust so damage is equivalent to potion damage var
 	}
 	if(other.player == 7) 
 	{
-		global.p8Health -= 20;
+		global.p8Health -= damage;
 		if(global.p8Health <= 0)
 		{
 			global.p8Stocks--;
@@ -107,7 +107,7 @@ if(other.player != player)	//adjust so damage is equivalent to potion damage var
 	}
 	if(other.player == 8) 
 	{
-		global.p9Health -= 20;
+		global.p9Health -= damage;
 		if(global.p9Health <= 0)
 		{
 			global.p9Stocks--;
