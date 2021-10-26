@@ -1,8 +1,12 @@
 /// Keep track of game state
 
-if(room != rCharSelect)
+if(room == rCave)
 {
 	numPlayersAlive = 0;
+	/*for(i = 0; i < 9; i++){
+		if(global.pStocks[i] > 0) numPlayersAlive++;
+	}*/
+	
 	if(global.p1Stocks > 0) numPlayersAlive++;
 	if(global.p2Stocks > 0) numPlayersAlive++;
 	if(global.p3Stocks > 0) numPlayersAlive++;
