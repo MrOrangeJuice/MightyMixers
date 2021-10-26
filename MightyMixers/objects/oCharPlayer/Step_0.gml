@@ -53,6 +53,14 @@ var move = key_right - key_left;
 hsp = move * walksp;
 vsp = vsp + grv;
 
+if(key_right - key_left != 0)	//saves direction character is facing
+{
+	if(key_right - key_left > 0)
+		directionFacing = 1;
+	else
+		directionFacing = -1;
+}
+
 //jump
 if(place_meeting(x, y + 1, oWall)) && (key_jump) {
 	audio_play_sound(jump,5,false);
@@ -113,14 +121,14 @@ if(key_throw)
 		
 		audio_play_sound(snd_Throw,5,false);
 		
-		potion = instance_create_layer(x, y, "potions", oPotion);
+		potion = instance_create_layer(x, y+5, "potions", oPotion);
 		if(!keyboard)
 		{
-			potion.throwPotion(controllerSlot, x, y);
+			potion.throwPotion(controllerSlot, x, y, directionFacing);
 		}
 		else
 		{
-			potion.throwPotion(-1, x, y);
+			potion.throwPotion(-1, x, y, directionFacing);
 		}
 		potion.player = player;
 	}

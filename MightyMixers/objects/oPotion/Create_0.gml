@@ -6,7 +6,7 @@ grv = 0.4;
 timer = 0;
 player = 0;
 
-function throwPotion(controllerSlot, xPos, yPos)
+function throwPotion(controllerSlot, xPos, yPos, directionFacing)
 {
 	image_xscale *= size;
 	image_yscale *= size;
@@ -26,7 +26,14 @@ function throwPotion(controllerSlot, xPos, yPos)
 	{
 		//var outputstring1 = string(controllerSlot);
 		//show_debug_message(controllerSlot);
-		launchAngle = arctan2(gamepad_axis_value(controllerSlot, gp_axislv), gamepad_axis_value(controllerSlot, gp_axislh));
+		if(gamepad_axis_value(controllerSlot, gp_axislv) == 0 && gamepad_axis_value(controllerSlot, gp_axislh) == 0)
+		{
+			launchAngle = arctan2(0, directionFacing);
+		}
+		else
+		{
+			launchAngle = arctan2(gamepad_axis_value(controllerSlot, gp_axislv), gamepad_axis_value(controllerSlot, gp_axislh));
+		}
 	}
 	
 	hsp = 15 * cos(launchAngle) / weight;

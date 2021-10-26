@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},"order":0,},
     {"id":{"name":"sSelect","path":"sprites/sSelect/sSelect.yy",},"order":1,},
     {"id":{"name":"sBoxPortrait","path":"sprites/sBoxPortrait/sBoxPortrait.yy",},"order":0,},
     {"id":{"name":"oBoxPortrait","path":"objects/oBoxPortrait/oBoxPortrait.yy",},"order":5,},
@@ -102,10 +103,10 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rCharSelect","path":"rooms/rCharSelect/rCharSelect.yy",},},
-    {"roomId":{"name":"rGraybox1","path":"rooms/rGraybox1/rGraybox1.yy",},},
-    {"roomId":{"name":"rMinigames","path":"rooms/rMinigames/rMinigames.yy",},},
-    {"roomId":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
     {"roomId":{"name":"rCave","path":"rooms/rCave/rCave.yy",},},
+    {"roomId":{"name":"rMinigames","path":"rooms/rMinigames/rMinigames.yy",},},
+    {"roomId":{"name":"rGraybox1","path":"rooms/rGraybox1/rGraybox1.yy",},},
+    {"roomId":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -135,7 +136,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.577",
+    "IDEVersion": "2.3.4.580",
   },
   "resourceVersion": "1.4",
   "name": "MightyMixers",

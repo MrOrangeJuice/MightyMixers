@@ -10,6 +10,7 @@ keyboard = false;
 controllerSlot = 0;
 player = 0;
 jumpForce = -6;
+directionFacing = 1;
 
 
 maxThrowTime = 1.0;	//time between throws

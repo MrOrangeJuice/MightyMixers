@@ -29,3 +29,7 @@ if(timeToMash > 0.0)
 	show_debug_message(outputstring1);
 
 }
+
+
+	
+//draw_text(browser_width / 2 , 400, player8Score);
