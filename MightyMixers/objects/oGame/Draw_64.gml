@@ -263,3 +263,20 @@ if(room == rCave)
 		}
 	}
 }
+
+if(room == rDropper){
+	for(i = 0; i < 9; i++){
+		if(global.pChars[i] != 0){
+			xStart = i * 70 + 40;
+			switch(global.pChars[i]){
+			case "1":
+				draw_sprite(sDrakHUD,global.pSkins[i],xStart,308);
+				break;
+			case "2":
+				draw_sprite(sScientistHUD,global.pSkins[i],xStart,308);
+				break;
+			}
+		}
+		draw_text(xStart + 8, 304, real(global.pCaughtCount[i]));
+	}
+}
