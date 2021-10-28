@@ -66,6 +66,7 @@
     {"id":{"name":"sDrak0_Jump","path":"sprites/sDrak0_Jump/sDrak0_Jump.yy",},"order":7,},
     {"id":{"name":"sScientist1_Run","path":"sprites/sScientist1_Run/sScientist1_Run.yy",},"order":25,},
     {"id":{"name":"sFightBanner","path":"sprites/sFightBanner/sFightBanner.yy",},"order":10,},
+    {"id":{"name":"sPotion","path":"sprites/sPotion/sPotion.yy",},"order":19,},
     {"id":{"name":"sMenu","path":"sprites/sMenu/sMenu.yy",},"order":17,},
     {"id":{"name":"sDrak2_Big","path":"sprites/sDrak2_Big/sDrak2_Big.yy",},"order":33,},
     {"id":{"name":"sDrak0_Run","path":"sprites/sDrak0_Run/sDrak0_Run.yy",},"order":8,},
@@ -148,7 +149,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.580",
+    "IDEVersion": "2.3.2.558",
   },
   "resourceVersion": "1.4",
   "name": "MightyMixers",
