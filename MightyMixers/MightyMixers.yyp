@@ -24,6 +24,7 @@
     {"id":{"name":"oBox","path":"objects/oBox/oBox.yy",},"order":4,},
     {"id":{"name":"sDrak0_Idle","path":"sprites/sDrak0_Idle/sDrak0_Idle.yy",},"order":6,},
     {"id":{"name":"sScientistHUD","path":"sprites/sScientistHUD/sScientistHUD.yy",},"order":38,},
+    {"id":{"name":"sCauldron","path":"sprites/sCauldron/sCauldron.yy",},"order":18,},
     {"id":{"name":"sPotionProto","path":"sprites/sPotionProto/sPotionProto.yy",},"order":11,},
     {"id":{"name":"sScientist0_Run","path":"sprites/sScientist0_Run/sScientist0_Run.yy",},"order":16,},
     {"id":{"name":"sDrak1_Jump","path":"sprites/sDrak1_Jump/sDrak1_Jump.yy",},"order":10,},
@@ -136,7 +137,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.580",
+    "IDEVersion": "2.3.2.558",
   },
   "resourceVersion": "1.4",
   "name": "MightyMixers",
