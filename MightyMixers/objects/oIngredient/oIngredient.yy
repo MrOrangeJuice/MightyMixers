@@ -1,8 +1,14 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sPepper",
+    "path": "sprites/sPepper/sPepper.yy",
+  },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sPepper",
+    "path": "sprites/sPepper/sPepper.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -25,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Object9",
+  "name": "oIngredient",
   "tags": [],
   "resourceType": "GMObject",
 }

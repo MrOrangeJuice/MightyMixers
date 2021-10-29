@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTest",
-    "path": "sprites/sTest/sTest.yy",
+    "name": "sCauldron",
+    "path": "sprites/sCauldron/sCauldron.yy",
   },
   "solid": false,
   "visible": true,

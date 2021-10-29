@@ -1,11 +1,14 @@
 {
   "spriteId": {
-    "name": "sTest",
-    "path": "sprites/sTest/sTest.yy",
+    "name": "sPepper",
+    "path": "sprites/sPepper/sPepper.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sPepper",
+    "path": "sprites/sPepper/sPepper.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
