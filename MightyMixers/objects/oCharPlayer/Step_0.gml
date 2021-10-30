@@ -63,7 +63,7 @@ if(key_right - key_left != 0)	//saves direction character is facing
 
 //jump
 if(place_meeting(x, y + 1, oWall)) && (key_jump) {
-	audio_play_sound(jump,5,false);
+	audio_play_sound(jump2,5,false);
 	vsp = jumpForce;
 }
 

@@ -3,6 +3,6 @@
 y += dropSpeed;
 
 if(place_meeting(x, y-20, oCauldron)){
-	//global.pCaughtCount[player] ++;
+	global.pCaughtCount[player] ++;
 	instance_destroy();
 }

@@ -8,7 +8,7 @@
 //destroyed on collision - needs updating for detecting collision with other players
 if(place_meeting(x, y, oWall))
 {
-	audio_play_sound(snd_PotionBreak,5,false);
+	audio_play_sound(potionbreak_wall,5,false);
 	//check splash range (based on size) for players and apply damage to all in range
 	instance_destroy();
 }

@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "msc_Combat.mp3",
-  "duration": 80.021,
+  "soundFile": "msc_Brewing.mp3",
+  "duration": 32.021,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",
   },
   "resourceVersion": "1.0",
-  "name": "msc_Combat",
+  "name": "msc_Brewing",
   "tags": [],
   "resourceType": "GMSound",
 }

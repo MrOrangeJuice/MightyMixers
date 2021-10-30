@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "msc_Combat.mp3",
+  "soundFile": "msc_Combat2.mp3",
   "duration": 80.021,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",
   },
   "resourceVersion": "1.0",
-  "name": "msc_Combat",
+  "name": "msc_Combat2",
   "tags": [],
   "resourceType": "GMSound",
 }

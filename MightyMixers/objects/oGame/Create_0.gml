@@ -67,3 +67,5 @@ global.p9Stocks = 0;
 global.pStocks = [global.p1Stocks, global.p2Stocks, global.p3Stocks, global.p4Stocks, global.p5Stocks, global.p6Stocks, global.p7Stocks, global.p8Stocks, global.p9Stocks];
 
 global.pCaughtCount = [0,0,0,0,0,0,0,0,0];
+
+xMinigameStart = 0;

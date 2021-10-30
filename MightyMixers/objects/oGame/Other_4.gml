@@ -1,7 +1,7 @@
 /// @description Spawn players
 if(room == rCave)
 {
-	audio_stop_sound(msc_CSS);
+	audio_stop_sound(msc_Brewing);
 	audio_play_sound(msc_Combat,5,true);
 	
 	if(global.p1Char != 0)
@@ -94,6 +94,11 @@ if(room == rCave)
 		global.p9Health = global.healthCount;
 		global.p9Stocks = global.stockCount;
 	}
+}
+else if (room == rDropper)
+{
+	audio_stop_sound(msc_CSS);
+	audio_play_sound(msc_Brewing,5,true);
 }
 else if (room == rCharSelect)
 {
