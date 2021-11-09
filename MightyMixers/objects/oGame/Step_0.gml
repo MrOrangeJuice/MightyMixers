@@ -19,6 +19,6 @@ if(room == rCave)
 	
 	if(numPlayersAlive == 1)
 	{
-		SlideTransition(TRANS_MODE.RESTART);	
+		SlideTransition(TRANS_MODE.GOTO,rResults);	
 	}
 }

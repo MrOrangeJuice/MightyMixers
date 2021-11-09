@@ -6,6 +6,8 @@ grv = 0.4;
 timer = 0;
 player = 0;
 image_speed = 0;
+// Set potion color to player color
+image_index = player;
 
 function throwPotion(controllerSlot, xPos, yPos, directionFacing)
 {

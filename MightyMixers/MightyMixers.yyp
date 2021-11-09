@@ -81,6 +81,7 @@
     {"id":{"name":"sFightBanner","path":"sprites/sFightBanner/sFightBanner.yy",},"order":9,},
     {"id":{"name":"msc_Combat2","path":"sounds/msc_Combat2/msc_Combat2.yy",},"order":3,},
     {"id":{"name":"sPotion","path":"sprites/sPotion/sPotion.yy",},"order":20,},
+    {"id":{"name":"sPrompt","path":"sprites/sPrompt/sPrompt.yy",},"order":23,},
     {"id":{"name":"sMenu","path":"sprites/sMenu/sMenu.yy",},"order":15,},
     {"id":{"name":"sDrak2_Big","path":"sprites/sDrak2_Big/sDrak2_Big.yy",},"order":33,},
     {"id":{"name":"sDrak0_Run","path":"sprites/sDrak0_Run/sDrak0_Run.yy",},"order":8,},
