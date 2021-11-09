@@ -131,6 +131,8 @@ if(key_throw)
 			potion.throwPotion(-1, x, y, directionFacing);
 		}
 		potion.player = player;
+		potion.damage = potion.damage * ((global.pCaughtCount[player] * .1) + 1);
+		show_debug_message("Player" + string(player) +": " + string(potion.damage));
 	}
 }
 

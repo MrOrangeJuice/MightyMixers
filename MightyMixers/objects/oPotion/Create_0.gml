@@ -9,6 +9,7 @@ image_speed = 0;
 // Set potion color to player color
 image_index = player;
 
+
 function throwPotion(controllerSlot, xPos, yPos, directionFacing)
 {
 	image_xscale *= size;
