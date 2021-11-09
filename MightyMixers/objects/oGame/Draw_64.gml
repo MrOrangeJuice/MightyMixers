@@ -303,4 +303,76 @@ if(room == rDropper){
 		}
 			draw_text(xMinigameStart + 16, 300, real(global.pCaughtCount[2]));
 	}
+	if(global.p4Char != 0){
+		xMinigameStart = 250;
+		switch(global.p4Char){
+		case "1":
+			draw_sprite(sDrakHUD,global.p4Skin,xMinigameStart,306);
+			break;
+		case "2":
+			draw_sprite(sScientistHUD,global.p4Skin,xMinigameStart,306);
+			break;
+		}
+			draw_text(xMinigameStart + 16, 300, real(global.pCaughtCount[3]));
+	}
+	if(global.p5Char != 0){
+		xMinigameStart = 320;
+		switch(global.p5Char){
+		case "1":
+			draw_sprite(sDrakHUD,global.p5Skin,xMinigameStart,306);
+			break;
+		case "2":
+			draw_sprite(sScientistHUD,global.p5Skin,xMinigameStart,306);
+			break;
+		}
+			draw_text(xMinigameStart + 16, 300, real(global.pCaughtCount[4]));
+	}
+	if(global.p6Char != 0){
+		xMinigameStart = 390;
+		switch(global.p6Char){
+		case "1":
+			draw_sprite(sDrakHUD,global.p6Skin,xMinigameStart,306);
+			break;
+		case "2":
+			draw_sprite(sScientistHUD,global.p6Skin,xMinigameStart,306);
+			break;
+		}
+			draw_text(xMinigameStart + 16, 300, real(global.pCaughtCount[5]));
+	}
+	if(global.p7Char != 0){
+		xMinigameStart = 460;
+		switch(global.p7Char){
+		case "1":
+			draw_sprite(sDrakHUD,global.p7Skin,xMinigameStart,306);
+			break;
+		case "2":
+			draw_sprite(sScientistHUD,global.p7Skin,xMinigameStart,306);
+			break;
+		}
+			draw_text(xMinigameStart + 16, 300, real(global.pCaughtCount[6]));
+	}
+	if(global.p8Char != 0){
+		xMinigameStart = 530;
+		switch(global.p8Char){
+		case "1":
+			draw_sprite(sDrakHUD,global.p8Skin,xMinigameStart,306);
+			break;
+		case "2":
+			draw_sprite(sScientistHUD,global.p8Skin,xMinigameStart,306);
+			break;
+		}
+			draw_text(xMinigameStart + 16, 300, real(global.pCaughtCount[7]));
+	}
+	if(global.p9Char != 0){
+		xMinigameStart = 600;
+		switch(global.p9Char){
+		case "1":
+			draw_sprite(sDrakHUD,global.p9Skin,xMinigameStart,306);
+			break;
+		case "2":
+			draw_sprite(sScientistHUD,global.p9Skin,xMinigameStart,306);
+			break;
+		}
+			draw_text(xMinigameStart + 16, 300, real(global.pCaughtCount[8]));
+	}
 }
