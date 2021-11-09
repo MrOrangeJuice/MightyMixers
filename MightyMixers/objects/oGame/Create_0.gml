@@ -52,7 +52,7 @@ global.p9Health = 0;
 global.pHealths = [0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 global.stockCount = 3;
-global.healthCount = 150;
+global.healthCount = 140;
 
 global.p1Stocks = 0;
 global.p2Stocks = 0;
