@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_PotionBreak.mp3",
-  "duration": 0.533,
+  "duration": 0.528,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

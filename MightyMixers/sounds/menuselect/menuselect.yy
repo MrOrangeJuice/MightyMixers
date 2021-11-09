@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "menuselect.mp3",
-  "duration": 0.173,
+  "duration": 0.168,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

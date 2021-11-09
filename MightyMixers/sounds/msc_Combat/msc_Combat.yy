@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "msc_Combat.mp3",
-  "duration": 80.021,
+  "duration": 80.016,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",

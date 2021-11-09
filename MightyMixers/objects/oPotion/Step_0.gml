@@ -22,3 +22,6 @@ vsp = vsp + (grv*weight);
 	y = y + vsp;
 	timer = 0;
  }
+ 
+ // Set potion color to player color
+ image_index = player;

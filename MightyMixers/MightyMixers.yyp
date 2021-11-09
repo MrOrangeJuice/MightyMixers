@@ -45,6 +45,7 @@
     {"id":{"name":"sCanoliCSS","path":"sprites/sCanoliCSS/sCanoliCSS.yy",},"order":12,},
     {"id":{"name":"sFeather","path":"sprites/sFeather/sFeather.yy",},"order":7,},
     {"id":{"name":"sDrakCSS","path":"sprites/sDrakCSS/sDrakCSS.yy",},"order":11,},
+    {"id":{"name":"rResults","path":"rooms/rResults/rResults.yy",},"order":6,},
     {"id":{"name":"potionbreak_wall","path":"sounds/potionbreak_wall/potionbreak_wall.yy",},"order":11,},
     {"id":{"name":"oCharPlayer","path":"objects/oCharPlayer/oCharPlayer.yy",},"order":6,},
     {"id":{"name":"fUI","path":"fonts/fUI/fUI.yy",},"order":0,},
@@ -101,6 +102,7 @@
     {"id":{"name":"sScientist2_Run","path":"sprites/sScientist2_Run/sScientist2_Run.yy",},"order":28,},
     {"id":{"name":"Sprite51","path":"sprites/Sprite51/Sprite51.yy",},"order":17,},
     {"id":{"name":"sCauldron","path":"sprites/sCauldron/sCauldron.yy",},"order":22,},
+    {"id":{"name":"oResults","path":"objects/oResults/oResults.yy",},"order":19,},
     {"id":{"name":"oCauldron","path":"objects/oCauldron/oCauldron.yy",},"order":16,},
     {"id":{"name":"Sprite44","path":"sprites/Sprite44/Sprite44.yy",},"order":36,},
     {"id":{"name":"sScientist2_Big","path":"sprites/sScientist2_Big/sScientist2_Big.yy",},"order":35,},
@@ -138,6 +140,7 @@
     {"roomId":{"name":"rGraybox1","path":"rooms/rGraybox1/rGraybox1.yy",},},
     {"roomId":{"name":"rMinigames","path":"rooms/rMinigames/rMinigames.yy",},},
     {"roomId":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
+    {"roomId":{"name":"rResults","path":"rooms/rResults/rResults.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -168,7 +171,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.558",
+    "IDEVersion": "2.3.6.595",
   },
   "resourceVersion": "1.4",
   "name": "MightyMixers",
