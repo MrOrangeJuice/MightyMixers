@@ -267,112 +267,26 @@ if(room == rCave)
 if(room == rDropper){
 	draw_set_color(c_white);
 	draw_set_font(fUI);
-	if(global.p1Char != 0){
-		xMinigameStart = 40;
-		switch(global.p1Char){
-		case "1":
-			draw_sprite(sDrakHUD,global.p1Skin,xMinigameStart,306);
-			break;
-		case "2":
-			draw_sprite(sScientistHUD,global.p1Skin,xMinigameStart,306);
-			break;
+	global.pChars = [global.p1Char,global.p2Char,global.p3Char,global.p4Char,global.p5Char,global.p6Char,global.p7Char,global.p8Char,global.p9Char];
+	global.pSkins = [global.p1Skin,global.p2Skin,global.p3Skin,global.p4Skin,global.p5Skin,global.p6Skin,global.p7Skin,global.p8Skin,global.p9Skin];
+	
+	for(i = 0; i < 9; i++){
+		if(global.pChars[i] != 0){
+			xMinigameStart = 40 + i * 70;
+			switch(global.pChars[i]){
+			case "1":
+				draw_sprite(sDrakHUD,global.pSkins[i],xMinigameStart,306);
+				break;
+			case "2":
+				draw_sprite(sScientistHUD,global.pSkins[i],xMinigameStart,306);
+				break;
+			}
+			draw_sprite(global.itemSprites[i], 0, xMinigameStart + 16, 307); 
+			draw_text(xMinigameStart + 28, 299, real(global.pCaughtCount[i]));
+			if(global.pDropTimer[i] > 0){
+				x2 = (global.pDropTimer[i] / oDropper.timerLength) * 50;
+				draw_rectangle(xMinigameStart - 8, 290, xMinigameStart - 8 + x2, 293, false);	
+			}
 		}
-			draw_text(xMinigameStart + 16, 300, real(global.pCaughtCount[0]));
-	}
-	if(global.p2Char != 0){
-		xMinigameStart = 110;
-		switch(global.p2Char){
-		case "1":
-			draw_sprite(sDrakHUD,global.p2Skin,xMinigameStart,306);
-			break;
-		case "2":
-			draw_sprite(sScientistHUD,global.p2Skin,xMinigameStart,306);
-			break;
-		}
-			draw_text(xMinigameStart + 16, 300, real(global.pCaughtCount[1]));
-	}
-	if(global.p3Char != 0){
-		xMinigameStart = 180;
-		switch(global.p3Char){
-		case "1":
-			draw_sprite(sDrakHUD,global.p3Skin,xMinigameStart,306);
-			break;
-		case "2":
-			draw_sprite(sScientistHUD,global.p3Skin,xMinigameStart,306);
-			break;
-		}
-			draw_text(xMinigameStart + 16, 300, real(global.pCaughtCount[2]));
-	}
-	if(global.p4Char != 0){
-		xMinigameStart = 250;
-		switch(global.p4Char){
-		case "1":
-			draw_sprite(sDrakHUD,global.p4Skin,xMinigameStart,306);
-			break;
-		case "2":
-			draw_sprite(sScientistHUD,global.p4Skin,xMinigameStart,306);
-			break;
-		}
-			draw_text(xMinigameStart + 16, 300, real(global.pCaughtCount[3]));
-	}
-	if(global.p5Char != 0){
-		xMinigameStart = 320;
-		switch(global.p5Char){
-		case "1":
-			draw_sprite(sDrakHUD,global.p5Skin,xMinigameStart,306);
-			break;
-		case "2":
-			draw_sprite(sScientistHUD,global.p5Skin,xMinigameStart,306);
-			break;
-		}
-			draw_text(xMinigameStart + 16, 300, real(global.pCaughtCount[4]));
-	}
-	if(global.p6Char != 0){
-		xMinigameStart = 390;
-		switch(global.p6Char){
-		case "1":
-			draw_sprite(sDrakHUD,global.p6Skin,xMinigameStart,306);
-			break;
-		case "2":
-			draw_sprite(sScientistHUD,global.p6Skin,xMinigameStart,306);
-			break;
-		}
-			draw_text(xMinigameStart + 16, 300, real(global.pCaughtCount[5]));
-	}
-	if(global.p7Char != 0){
-		xMinigameStart = 460;
-		switch(global.p7Char){
-		case "1":
-			draw_sprite(sDrakHUD,global.p7Skin,xMinigameStart,306);
-			break;
-		case "2":
-			draw_sprite(sScientistHUD,global.p7Skin,xMinigameStart,306);
-			break;
-		}
-			draw_text(xMinigameStart + 16, 300, real(global.pCaughtCount[6]));
-	}
-	if(global.p8Char != 0){
-		xMinigameStart = 530;
-		switch(global.p8Char){
-		case "1":
-			draw_sprite(sDrakHUD,global.p8Skin,xMinigameStart,306);
-			break;
-		case "2":
-			draw_sprite(sScientistHUD,global.p8Skin,xMinigameStart,306);
-			break;
-		}
-			draw_text(xMinigameStart + 16, 300, real(global.pCaughtCount[7]));
-	}
-	if(global.p9Char != 0){
-		xMinigameStart = 600;
-		switch(global.p9Char){
-		case "1":
-			draw_sprite(sDrakHUD,global.p9Skin,xMinigameStart,306);
-			break;
-		case "2":
-			draw_sprite(sScientistHUD,global.p9Skin,xMinigameStart,306);
-			break;
-		}
-			draw_text(xMinigameStart + 16, 300, real(global.pCaughtCount[8]));
 	}
 }
