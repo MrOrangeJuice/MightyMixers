@@ -111,6 +111,10 @@ else{
 }
 
 throwTimer += delta_time / 1000000;	//counting time since last throw
+if(throwTimer >= maxThrowTime)
+{
+	canThrow = true;	//just used for drawing indicator
+}
 
 //potion throwing - add code to check throwingSpeed of selected potion
 if(key_throw)
@@ -118,6 +122,7 @@ if(key_throw)
 	if(throwTimer >= maxThrowTime)
 	{
 		throwTimer = 0.0;	//resets time since last throw
+		canThrow = false;
 		
 		audio_play_sound(snd_Throw,5,false);
 		
@@ -131,7 +136,7 @@ if(key_throw)
 			potion.throwPotion(-1, x, y, directionFacing);
 		}
 		potion.player = player;
-		potion.damage = potion.damage * ((global.pCaughtCount[player] * .1) + 1);
+		potion.damage = potion.damage * ((global.pCaughtCount[player] * .05) + 1);
 		show_debug_message("Player" + string(player) +": " + string(potion.damage));
 	}
 }

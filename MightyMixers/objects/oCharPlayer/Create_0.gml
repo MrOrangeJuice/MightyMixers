@@ -12,7 +12,7 @@ player = 0;
 jumpForce = -6;
 directionFacing = 1;
 
-
+canThrow = true;	//only used for drawing indicator
 maxThrowTime = 1.0;	//time between throws
 throwTimer = maxThrowTime;	//counting time since last throw, starts above throw time so you can throw from start
 
