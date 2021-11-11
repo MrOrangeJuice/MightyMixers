@@ -285,7 +285,7 @@ if(room == rDropper){
 			draw_text(xMinigameStart + 28, 299, real(global.pCaughtCount[i]));
 			if(global.pDropTimer[i] > 0){
 				x2 = (global.pDropTimer[i] / oDropper.timerLength) * 50;
-				draw_rectangle(xMinigameStart - 8, 290, xMinigameStart - 8 + x2, 293, false);	
+				draw_rectangle(xMinigameStart - 6, 290, xMinigameStart - 6 + x2, 292, false);	
 			}
 		}
 	}
