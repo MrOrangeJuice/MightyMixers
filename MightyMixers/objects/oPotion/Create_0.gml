@@ -40,8 +40,8 @@ function throwPotion(controllerSlot, xPos, yPos, directionFacing)
 		}
 	}
 	
-	hsp = 15 * cos(launchAngle) / weight;
-	vsp = 15 * sin(launchAngle) / weight;
+	hsp = airSpeed * cos(launchAngle) / weight;
+	vsp = airSpeed * sin(launchAngle) / weight;
 }
 
 

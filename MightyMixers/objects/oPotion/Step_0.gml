@@ -16,7 +16,7 @@ if(place_meeting(x, y, oWall))
 vsp = vsp + (grv*weight);
  timer += delta_time;
  
- if(timer >= 60/airSpeed)
+ if(timer >= 16000) //~60 updates per second
  {
 	x = x + hsp;
 	y = y + vsp;

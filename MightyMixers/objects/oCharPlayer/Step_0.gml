@@ -137,7 +137,7 @@ if(key_throw)
 		}
 		potion.player = player;
 		potion.damage = potion.damage * ((global.pCaughtCount[player] * .05) + 1);
-		show_debug_message("Player" + string(player) +": " + string(potion.damage));
+		//show_debug_message("Player" + string(player) +": " + string(potion.damage));
 	}
 }
 
