@@ -9,6 +9,7 @@
 if(place_meeting(x, y, oWall))
 {
 	audio_play_sound(potionbreak_wall,5,false);
+	instance_create_layer(x,y,"potions",oPotionExplosion);
 	//check splash range (based on size) for players and apply damage to all in range
 	instance_destroy();
 }
