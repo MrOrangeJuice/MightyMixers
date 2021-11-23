@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "msc_Brewing.mp3",
-  "duration": 32.021,
+  "duration": 32.016,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",

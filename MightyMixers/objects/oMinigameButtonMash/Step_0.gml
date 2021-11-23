@@ -7,27 +7,22 @@ if(timeToMash > 0.0)
 
 	if(keyboard_check_pressed(vk_space))	//checking keyboard button mash
 	{
-		player0Score++;
+		global.pMashCount[0]++;
 	}
 	
-	if (gamepad_button_check_pressed(controllerSlot,gp_face1))
+	if (gamepad_button_check_pressed(controllerSlot,gp_face1))	//checking controller button mash
 	{
-		switch(controllerSlot)
-		{
-			case(0): player1Score++; break;		//xInput controller 1 check
-			case(1): player2Score++; break;		//xInput controller 2 check
-			case(2): player3Score++; break;		//xInput controller 3 check
-			case(3): player4Score++; break;		//xInput controller 4 check
-			case(4): player5Score++; break;		//dInput controller 5 check
-			case(5): player6Score++; break;		//dInput controller 6 check
-			case(6): player7Score++; break;		//dInput controller 7 check
-			case(7): player8Score++; break;		//dInput controller 8 check
-		}
+		global.pMashCount[controllerSlot+1]++;
 	}
 	
 	var outputstring1 = "Player0Score: " + string(player0Score) + " | Player1Score: " + string(player1Score)+ " | Player2Score: " + string(player2Score);
 	show_debug_message(outputstring1);
 
+}
+else
+{
+	audio_play_sound(menumove,5,false);
+	SlideTransition(TRANS_MODE.GOTO, rDropper);	
 }
 
 

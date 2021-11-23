@@ -13,4 +13,4 @@ player6Score = 0;
 player7Score = 0;
 player8Score = 0;
 
-timeToMash = 6.0;
+timeToMash = 10.0;

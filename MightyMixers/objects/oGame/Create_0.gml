@@ -69,5 +69,7 @@ global.pCaughtCount = [0,0,0,0,0,0,0,0,0];
 global.itemSprites = [sCherry, sClaw, sDrop, sEgg, sFeather, sPepper, sPlant_matter, sShroom, sSlime, sSugar];
 global.pDropTimer = [0,0,0,0,0,0,0,0,0];
 
+global.pMashCount = [0,0,0,0,0,0,0,0,0];
+
 
 xMinigameStart = 0;

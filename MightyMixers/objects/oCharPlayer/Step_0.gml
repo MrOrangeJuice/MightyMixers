@@ -116,6 +116,8 @@ if(throwTimer >= maxThrowTime)
 	canThrow = true;	//just used for drawing indicator
 }
 
+maxThrowTime = 1.0 - (global.pMashCount[player] * .01);
+
 //potion throwing - add code to check throwingSpeed of selected potion
 if(key_throw)
 {
@@ -136,7 +138,7 @@ if(key_throw)
 			potion.throwPotion(-1, x, y, directionFacing);
 		}
 		potion.player = player;
-		potion.damage = potion.damage * ((global.pCaughtCount[player] * .05) + 1);
+		potion.damage = potion.damage * ((global.pCaughtCount[player] * .1) + 1);
 		//show_debug_message("Player" + string(player) +": " + string(potion.damage));
 	}
 }
