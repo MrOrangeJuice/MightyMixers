@@ -3,14 +3,6 @@
 
 //player scores at start
 controllerSlot = 0;
-player0Score = 0;
-player1Score = 0;
-player2Score = 0;
-player3Score = 0;
-player4Score = 0;
-player5Score = 0;
-player6Score = 0;
-player7Score = 0;
-player8Score = 0;
+player = 0;
 
 timeToMash = 10.0;
