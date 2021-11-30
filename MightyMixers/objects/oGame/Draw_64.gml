@@ -318,3 +318,21 @@ else if(room == rMinigames){
 		}
 	}
 }
+else if (room == rPotionResults)
+{
+	draw_set_color(c_white);
+	draw_set_font(fUI);
+	if(global.p1Char != 0)
+	{
+		xStart = 40;
+		draw_set_color(c_red);
+		draw_text(xStart, 40, "P1");
+	}
+	if(global.p2Char != 0)
+	{
+		xStart = 40;
+		draw_set_color(c_red);
+		draw_text(xStart, 40, "P1");
+	}
+	
+}

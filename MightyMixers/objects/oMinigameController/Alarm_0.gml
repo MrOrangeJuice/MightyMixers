@@ -2,4 +2,4 @@
 
 
 
-SlideTransition(TRANS_MODE.GOTO,rCave);
+SlideTransition(TRANS_MODE.GOTO,rPotionResults);
