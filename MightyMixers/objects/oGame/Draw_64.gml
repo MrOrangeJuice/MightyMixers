@@ -318,3 +318,28 @@ else if(room == rMinigames){
 		}
 	}
 }
+else if(room == rCollection){
+	draw_set_color(c_white);
+	draw_set_font(fUI);
+	global.pChars = [global.p1Char,global.p2Char,global.p3Char,global.p4Char,global.p5Char,global.p6Char,global.p7Char,global.p8Char,global.p9Char];
+	global.pSkins = [global.p1Skin,global.p2Skin,global.p3Skin,global.p4Skin,global.p5Skin,global.p6Skin,global.p7Skin,global.p8Skin,global.p9Skin];
+	
+	for(i = 0; i < 9; i++){
+		if(global.pChars[i] != 0){
+			xMinigameStart = 40 + i * 70;
+			switch(global.pChars[i]){
+			case "1":
+				draw_sprite(sDrakHUD,global.pSkins[i],xMinigameStart,306);
+				break;
+			case "2":
+				draw_sprite(sScientistHUD,global.pSkins[i],xMinigameStart,306);
+				break;
+			}
+			draw_text(xMinigameStart + 28, 299, real(global.pCollectedCount[i]));
+			//if(global.pDropTimer[i] > 0){
+			//	x2 = (global.pDropTimer[i] / oDropper.timerLength) * 50;
+			//	draw_rectangle(xMinigameStart - 6, 290, xMinigameStart - 6 + x2, 292, false);	
+			//}
+		}
+	}
+}
