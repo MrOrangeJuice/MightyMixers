@@ -26,11 +26,11 @@ if(canThrow)
 		//show_debug_message("x: " + string(x + ((x - mouse_x) / sqr((x^2) + (mouse_x^2)))) + " y: " + string(y + ((y - mouse_y) / sqr((y^2) + (mouse_y^2)))));
 	}
 }
-/*
-function flash()
+
+if (flash > 0)
 {
+	flash--;
 	shader_set(shWhite);
 	draw_self();
 	shader_reset();
 }
-*/
