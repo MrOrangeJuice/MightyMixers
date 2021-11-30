@@ -14,6 +14,10 @@ key_right = 0;
 key_jump = 0;
 key_throw = 0;
 
+//prints positions
+//var outputstring1 = "Position: " + string(x) + ", " + string(y);
+//show_debug_message(outputstring1);
+
 if(keyboard)
 {
 	key_left = keyboard_check(ord("A"));
