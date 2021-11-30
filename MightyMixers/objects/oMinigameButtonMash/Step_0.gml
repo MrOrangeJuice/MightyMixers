@@ -22,8 +22,8 @@ if(timeToMash > 0.0)
 	//	global.pMashCount[player+1]++;
 	//}
 	//var outputstring2 = "PlayerNum: " + string(player);
-	var outputstring1 = "Player0Score: " + string(global.pMashCount[0]) + " | Player1Score: " + string(global.pMashCount[1])+ " | Player2Score: " + string(global.pMashCount[2]);
-	show_debug_message(outputstring1);
+	//var outputstring1 = "Player0Score: " + string(global.pMashCount[0]) + " | Player1Score: " + string(global.pMashCount[1])+ " | Player2Score: " + string(global.pMashCount[2]);
+	//show_debug_message(outputstring1);
 	//show_debug_message(outputstring2);
 
 }
