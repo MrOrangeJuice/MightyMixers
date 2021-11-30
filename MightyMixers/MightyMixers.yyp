@@ -51,7 +51,9 @@
     {"id":{"name":"sDrakCSS","path":"sprites/sDrakCSS/sDrakCSS.yy",},"order":11,},
     {"id":{"name":"rResults","path":"rooms/rResults/rResults.yy",},"order":6,},
     {"id":{"name":"sChef1_Idle","path":"sprites/sChef1_Idle/sChef1_Idle.yy",},"order":45,},
+    {"id":{"name":"rCollection","path":"rooms/rCollection/rCollection.yy",},"order":8,},
     {"id":{"name":"potionbreak_wall","path":"sounds/potionbreak_wall/potionbreak_wall.yy",},"order":11,},
+    {"id":{"name":"oDropNode","path":"objects/oDropNode/oDropNode.yy",},"order":21,},
     {"id":{"name":"sChef0_Jump","path":"sprites/sChef0_Jump/sChef0_Jump.yy",},"order":41,},
     {"id":{"name":"sChef2_Idle","path":"sprites/sChef2_Idle/sChef2_Idle.yy",},"order":48,},
     {"id":{"name":"oCharPlayer","path":"objects/oCharPlayer/oCharPlayer.yy",},"order":6,},
@@ -153,6 +155,7 @@
     {"roomId":{"name":"rMinigames","path":"rooms/rMinigames/rMinigames.yy",},},
     {"roomId":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
     {"roomId":{"name":"rResults","path":"rooms/rResults/rResults.yy",},},
+    {"roomId":{"name":"rCollection","path":"rooms/rCollection/rCollection.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -183,7 +186,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.577",
+    "IDEVersion": "2.3.5.589",
   },
   "resourceVersion": "1.4",
   "name": "MightyMixers",
