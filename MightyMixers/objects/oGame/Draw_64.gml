@@ -330,9 +330,8 @@ else if (room == rPotionResults)
 	}
 	if(global.p2Char != 0)
 	{
-		xStart = 40;
-		draw_set_color(c_red);
-		draw_text(xStart, 40, "P1");
+		xStart = 110;
+		draw_set_color(c_blue);
+		draw_text(xStart, 40, "P2");
 	}
-	
 }

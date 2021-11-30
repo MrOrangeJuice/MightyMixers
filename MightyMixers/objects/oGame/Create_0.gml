@@ -71,5 +71,8 @@ global.pDropTimer = [0,0,0,0,0,0,0,0,0];
 
 global.pMashCount = [0,0,0,0,0,0,0,0,0];
 
+potionNames = ["Potion","Brew"];
+potionNouns = ["Power","Passion"];
+
 
 xMinigameStart = 0;
