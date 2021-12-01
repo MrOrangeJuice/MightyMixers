@@ -12,18 +12,12 @@ var sprites = [ // 3D array that stores all sprites - [character index][skin ind
 key_left = 0;
 key_right = 0;
 key_jump = 0;
-key_throw = 0;
-
-//prints positions
-//var outputstring1 = "Position: " + string(x) + ", " + string(y);
-//show_debug_message(outputstring1);
 
 if(keyboard)
 {
 	key_left = keyboard_check(ord("A"));
 	key_right = keyboard_check(ord("D"));
 	key_jump = keyboard_check(vk_space);
-	key_throw =  mouse_check_button_pressed(mb_left);
 }
 else
 {
@@ -45,11 +39,6 @@ else
 	if (gamepad_button_check(controllerSlot,gp_face1))
 	{
 		key_jump = 1;
-	}
-	
-	if (gamepad_button_check_pressed(controllerSlot, gp_shoulderrb))
-	{
-		key_throw = 1;
 	}
 }
 
@@ -114,37 +103,11 @@ else{
 	}
 }
 
-throwTimer += delta_time / 1000000;	//counting time since last throw
-if(throwTimer >= maxThrowTime)
-{
-	canThrow = true;	//just used for drawing indicator
-}
-
-maxThrowTime = 1.0 - (global.pMashCount[player] * .01);
-
-//potion throwing - add code to check throwingSpeed of selected potion
-if(key_throw)
-{
-	if(throwTimer >= maxThrowTime)
-	{
-		throwTimer = 0.0;	//resets time since last throw
-		canThrow = false;
-		
-		audio_play_sound(snd_Throw,5,false);
-		
-		potion = instance_create_layer(x, y+5, "potions", oPotion);
-		if(!keyboard)
-		{
-			potion.throwPotion(controllerSlot, x, y, directionFacing);
-		}
-		else
-		{
-			potion.throwPotion(-1, x, y, directionFacing);
-		}
-		potion.player = player;
-		potion.damage = potion.damage * ((global.pCaughtCount[player] * .1) + 1);
-		//show_debug_message("Player" + string(player) +": " + string(potion.damage));
-	}
+instanceID = instance_place(x,y,oIngredient);
+if(instanceID != noone){
+	global.pCollectedCount[player] ++;
+	instance_destroy(instanceID);
+	
 }
 
 /*

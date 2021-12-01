@@ -1,5 +1,5 @@
-/// @description Collide with other player
-if(other.player != player)	//adjust so damage is equivalent to potion damage variable
+/// @description Collide with player
+if(player != other.player)
 {
 	if(other.player == 0) 
 	{
@@ -128,5 +128,4 @@ if(other.player != player)	//adjust so damage is equivalent to potion damage var
 		}
 	}
 	instance_destroy();
-	audio_play_sound(snd_PotionBreak,5,false);
 }

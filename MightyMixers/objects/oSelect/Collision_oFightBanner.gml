@@ -4,7 +4,7 @@ if(keyboard)
 	if(keyboard_check_pressed(vk_space))
 	{
 		audio_play_sound(menumove,5,false);
-		SlideTransition(TRANS_MODE.GOTO,rMinigames);	
+		SlideTransition(TRANS_MODE.GOTO,rCollection);	
 	}
 }
 else
@@ -12,6 +12,7 @@ else
 	if(gamepad_button_check_pressed(controllerSlot,gp_face1))
 	{
 		audio_play_sound(menumove,5,false);
-		SlideTransition(TRANS_MODE.GOTO,rMinigames);	
+		//SlideTransition(TRANS_MODE.GOTO,rMinigames);	
+		SlideTransition(TRANS_MODE.GOTO,rCollection);	
 	}
 }

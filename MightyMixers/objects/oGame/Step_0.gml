@@ -22,3 +22,11 @@ if(room == rCave)
 		SlideTransition(TRANS_MODE.GOTO,rResults);	
 	}
 }
+
+if(room == rDropper || room == rMinigames || room == rPotionResults)
+{
+	if(keyboard_check_pressed(vk_enter))
+	{
+		SlideTransition(TRANS_MODE.GOTO,rCave);	
+	}
+}
