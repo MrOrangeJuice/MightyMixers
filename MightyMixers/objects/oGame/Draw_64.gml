@@ -341,6 +341,8 @@ else if(room == rCollection){
 			//	draw_rectangle(xMinigameStart - 6, 290, xMinigameStart - 6 + x2, 292, false);	
 			//}
 		}
+	}
+}
 
 else if (room == rPotionResults)
 {
