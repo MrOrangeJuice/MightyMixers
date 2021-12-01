@@ -23,10 +23,11 @@ if(room == rCave)
 	}
 }
 
-if(room == rDropper || room == rMinigames || room == rPotionResults)
+if(room == rDropper || room == rMinigames || room == rPotionResults || room == rCollection)
 {
 	if(keyboard_check_pressed(vk_enter))
 	{
+		audio_stop_all();
 		SlideTransition(TRANS_MODE.GOTO,rCave);	
 	}
 }
