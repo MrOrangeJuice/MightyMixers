@@ -7,7 +7,10 @@ var sprites = [ // 3D array that stores all sprites - [character index][skin ind
 	[sDrak2_Idle, sDrak2_Run, sDrak2_Jump]],
 	[[sScientist0_Idle, sScientist0_Run, sScientist0_Jump],
 	[sScientist1_Idle, sScientist1_Run, sScientist1_Jump],
-	[sScientist2_Idle, sScientist2_Run, sScientist2_Jump]]];
+	[sScientist2_Idle, sScientist2_Run, sScientist2_Jump]],
+	[[sChef0_Idle, sChef0_Run, sChef0_Jump],
+	[sChef1_Idle, sChef1_Run, sChef1_Jump],
+	[sChef2_Idle, sChef2_Run, sChef2_Jump]]];
 
 key_left = 0;
 key_right = 0;

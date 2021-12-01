@@ -22,9 +22,11 @@ charBox0.character = "drak";
 charBox1 = instance_create_layer(320,112,"Elements",oCharacter);
 charBox1.character = "canoli";
 charBox2 = instance_create_layer(416,112,"Elements",oCharacter);
-charBox2.character = "random";
+charBox2.character = "chef";
+charBox3 = instance_create_layer(512,112,"Elements",oCharacter);
+charBox3.character = "random";
 
-charBoxes = [charBox0,charBox1,charBox2];
+charBoxes = [charBox0,charBox1,charBox2,charBox3];
 
 select1 = 0;
 select2 = 0;

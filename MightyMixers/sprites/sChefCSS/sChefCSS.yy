@@ -24,13 +24,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a539d648-18a6-4d8a-98f4-d71685930e30","path":"sprites/sCanoliCSS/sCanoliCSS.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a539d648-18a6-4d8a-98f4-d71685930e30","path":"sprites/sCanoliCSS/sCanoliCSS.yy",},"LayerId":{"name":"361945f1-b37b-46b3-921e-6baa735a4b10","path":"sprites/sCanoliCSS/sCanoliCSS.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"a539d648-18a6-4d8a-98f4-d71685930e30","path":"sprites/sCanoliCSS/sCanoliCSS.yy",},"LayerId":{"name":"f7ebf09d-9c6c-4539-9d9b-14fdcf58abf5","path":"sprites/sCanoliCSS/sCanoliCSS.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCanoliCSS","path":"sprites/sCanoliCSS/sCanoliCSS.yy",},"resourceVersion":"1.0","name":"a539d648-18a6-4d8a-98f4-d71685930e30","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a539d648-18a6-4d8a-98f4-d71685930e30","path":"sprites/sChefCSS/sChefCSS.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a539d648-18a6-4d8a-98f4-d71685930e30","path":"sprites/sChefCSS/sChefCSS.yy",},"LayerId":{"name":"361945f1-b37b-46b3-921e-6baa735a4b10","path":"sprites/sChefCSS/sChefCSS.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"a539d648-18a6-4d8a-98f4-d71685930e30","path":"sprites/sChefCSS/sChefCSS.yy",},"LayerId":{"name":"f7ebf09d-9c6c-4539-9d9b-14fdcf58abf5","path":"sprites/sChefCSS/sChefCSS.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sChefCSS","path":"sprites/sChefCSS/sChefCSS.yy",},"resourceVersion":"1.0","name":"a539d648-18a6-4d8a-98f4-d71685930e30","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sCanoliCSS","path":"sprites/sCanoliCSS/sCanoliCSS.yy",},
+    "spriteId": {"name":"sChefCSS","path":"sprites/sChefCSS/sChefCSS.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -42,7 +42,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"01211c4a-5b6c-42b3-a971-7289391a88b2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a539d648-18a6-4d8a-98f4-d71685930e30","path":"sprites/sCanoliCSS/sCanoliCSS.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a3fda37d-ac42-4725-9b0e-ab756483953b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a539d648-18a6-4d8a-98f4-d71685930e30","path":"sprites/sChefCSS/sChefCSS.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -59,9 +59,9 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sCanoliCSS","path":"sprites/sCanoliCSS/sCanoliCSS.yy",},
+    "parent": {"name":"sChefCSS","path":"sprites/sChefCSS/sChefCSS.yy",},
     "resourceVersion": "1.3",
-    "name": "sCanoliCSS",
+    "name": "sChefCSS",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -75,7 +75,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sCanoliCSS",
+  "name": "sChefCSS",
   "tags": [],
   "resourceType": "GMSprite",
 }

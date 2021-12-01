@@ -2,7 +2,10 @@
   "spriteId": null,
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sCherry",
+    "path": "sprites/sCherry/sCherry.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

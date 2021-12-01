@@ -12,6 +12,9 @@ switch(character)
 	case "canoli":
 		sprite_index = sCanoliCSS;
 		break;
+	case "chef":
+		sprite_index = sChefCSS;
+		break;
 	case "random":
 		sprite_index = sRandomCSS;
 		break;
