@@ -187,3 +187,24 @@ else if (room == rCharSelect)
 	audio_stop_sound(msc_Combat);
 	audio_play_sound(msc_CSS,5,true);	
 }
+else if(room == rPotionResults)
+{
+	p1Name = random_range(0,array_length_1d(potionNames));
+	p1Noun = random_range(0,array_length_1d(potionNouns));
+	p2Name = random_range(0,array_length_1d(potionNames));
+	p2Noun = random_range(0,array_length_1d(potionNouns));
+	p3Name = random_range(0,array_length_1d(potionNames));
+	p3Noun = random_range(0,array_length_1d(potionNouns));
+	p4Name = random_range(0,array_length_1d(potionNames));
+	p4Noun = random_range(0,array_length_1d(potionNouns));
+	p5Name = random_range(0,array_length_1d(potionNames));
+	p5Noun = random_range(0,array_length_1d(potionNouns));
+	p6Name = random_range(0,array_length_1d(potionNames));
+	p6Noun = random_range(0,array_length_1d(potionNouns));
+	p7Name = random_range(0,array_length_1d(potionNames));
+	p7Noun = random_range(0,array_length_1d(potionNouns));
+	p8Name = random_range(0,array_length_1d(potionNames));
+	p8Noun = random_range(0,array_length_1d(potionNouns));
+	p9Name = random_range(0,array_length_1d(potionNames));
+	p9Noun = random_range(0,array_length_1d(potionNouns));
+}

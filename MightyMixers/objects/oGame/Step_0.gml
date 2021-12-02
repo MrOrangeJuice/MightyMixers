@@ -30,4 +30,9 @@ if(room == rDropper || room == rMinigames || room == rPotionResults || room == r
 		audio_stop_all();
 		SlideTransition(TRANS_MODE.GOTO,rCave);	
 	}
+	if(keyboard_check_pressed(vk_backspace))
+	{
+		audio_stop_all();
+		SlideTransition(TRANS_MODE.GOTO,rPotionResults);
+	}
 }

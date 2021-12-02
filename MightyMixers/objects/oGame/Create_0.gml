@@ -74,5 +74,23 @@ global.pCollectedCount = [0,0,0,0,0,0,0,0,0];
 
 potionNames = ["Potion","Brew"];
 potionNouns = ["Power","Passion"];
+p1Name = 0;
+p1Noun = 0;
+p2Name = 0;
+p2Noun = 0;
+p3Name = 0;
+p3Noun = 0;
+p4Name = 0;
+p4Noun = 0;
+p5Name = 0;
+p5Noun = 0;
+p6Name = 0;
+p6Noun = 0;
+p7Name = 0;
+p7Noun = 0;
+p8Name = 0;
+p8Noun = 0;
+p9Name = 0;
+p9Noun = 0;
 
 xMinigameStart = 0;

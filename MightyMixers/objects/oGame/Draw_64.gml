@@ -347,17 +347,63 @@ else if(room == rCollection){
 else if (room == rPotionResults)
 {
 	draw_set_color(c_white);
-	draw_set_font(fUI);
+	draw_set_font(fUISmall);
+	draw_set_halign(fa_center);
 	if(global.p1Char != 0)
 	{
-		xStart = 40;
+		xStart = 64;
 		draw_set_color(c_red);
 		draw_text(xStart, 40, "P1");
+		draw_set_color(c_white);
+		draw_text(xStart, 100, potionNames[p1Name] + "\nof\n" + potionNouns[p1Noun]);
+		
 	}
 	if(global.p2Char != 0)
 	{
-		xStart = 110;
+		xStart = 192;
 		draw_set_color(c_blue);
 		draw_text(xStart, 40, "P2");
+		draw_set_color(c_white);
+		draw_text(xStart, 100, potionNames[p2Name] + "\nof\n" + potionNouns[p2Noun]);
+	}
+	if(global.p3Char != 0)
+	{
+		xStart = 320;
+		draw_set_color(c_lime);
+		draw_text(xStart, 40, "P3");
+		draw_set_color(c_white);
+		draw_text(xStart, 100, potionNames[p3Name] + "\nof\n" + potionNouns[p3Noun]);
+	}
+	if(global.p4Char != 0)
+	{
+		xStart = 448;
+		draw_set_color(c_yellow);
+		draw_text(xStart, 40, "P4");
+		draw_set_color(c_white);
+		draw_text(xStart, 100, potionNames[p4Name] + "\nof\n" + potionNouns[p4Noun]);
+	}
+	if(global.p5Char != 0)
+	{
+		xStart = 576;
+		draw_set_color(c_purple);
+		draw_text(xStart, 40, "P5");
+		draw_set_color(c_white);
+		draw_text(xStart, 100, potionNames[p5Name] + "\nof\n" + potionNouns[p5Noun]);
+	}
+	if(global.p6Char != 0)
+	{
+		xStart = 80;
+		draw_set_color(c_orange);
+		draw_text(xStart, 200, "P6");
+		draw_set_color(c_white);
+		draw_text(xStart, 260, potionNames[p6Name] + "\nof\n" + potionNouns[p6Noun]);
+	}
+	if(global.p7Char != 0)
+	{
+		xStart = 240;
+		draw_set_color(c_teal);
+		draw_text(xStart, 200, "P7");
+		draw_set_color(c_white);
+		draw_text(xStart, 260, potionNames[p7Name] + "\nof\n" + potionNouns[p7Noun]);
 	}
 }
