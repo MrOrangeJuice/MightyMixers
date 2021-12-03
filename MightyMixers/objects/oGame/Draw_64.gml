@@ -390,7 +390,7 @@ else if (room == rPotionResults)
 		draw_set_color(c_white);
 		draw_text(xStart, 80, potionNames[p1Name] + "\nof\n" + potionNouns[p1Noun]);
 		draw_text(xStart,120, "Damage: " + string(50 * ((global.pCaughtCount[0] * .1) + 1)));
-		draw_text(xStart,140, "Throw Speed: " + string(1.0 - (global.pMashCount[0] * .01)));
+		draw_text(xStart,140, "Reload: " + string(1.0 - (global.pMashCount[0] * .01)));
 		draw_text(xStart,160, "Radius: " + string(1.0 + (global.pCollectedCount[0] * 0.01)));
 	}
 	
@@ -403,7 +403,7 @@ else if (room == rPotionResults)
 		draw_set_color(c_white);
 		draw_text(xStart, 80, potionNames[p2Name] + "\nof\n" + potionNouns[p2Noun]);
 		draw_text(xStart,120, "Damage: " + string(50 * ((global.pCaughtCount[1] * .1) + 1)));
-		draw_text(xStart,140, "Throw Speed: " + string(1.0 - (global.pMashCount[1] * .01)));
+		draw_text(xStart,140, "Reload: " + string(1.0 - (global.pMashCount[1] * .01)));
 		draw_text(xStart,160, "Radius: " + string(1.0 + (global.pCollectedCount[1] * 0.01)));
 	}
 	if(global.p3Char != 0)
@@ -415,7 +415,7 @@ else if (room == rPotionResults)
 		draw_set_color(c_white);
 		draw_text(xStart, 80, potionNames[p3Name] + "\nof\n" + potionNouns[p3Noun]);
 		draw_text(xStart,120, "Damage: " + string(50 * ((global.pCaughtCount[2] * .1) + 1)));
-		draw_text(xStart,140, "Throw Speed: " + string(1.0 - (global.pMashCount[2] * .01)));
+		draw_text(xStart,140, "Reload: " + string(1.0 - (global.pMashCount[2] * .01)));
 		draw_text(xStart,160, "Radius: " + string(1.0 + (global.pCollectedCount[2] * 0.01)));
 	}
 	if(global.p4Char != 0)
@@ -427,7 +427,7 @@ else if (room == rPotionResults)
 		draw_set_color(c_white);
 		draw_text(xStart, 80, potionNames[p4Name] + "\nof\n" + potionNouns[p4Noun]);
 		draw_text(xStart,120, "Damage: " + string(50 * ((global.pCaughtCount[3] * .1) + 1)));
-		draw_text(xStart,140, "Throw Speed: " + string(1.0 - (global.pMashCount[3] * .01)));
+		draw_text(xStart,140, "Reload: " + string(1.0 - (global.pMashCount[3] * .01)));
 		draw_text(xStart,160, "Radius: " + string(1.0 + (global.pCollectedCount[3] * 0.01)));
 	}
 	if(global.p5Char != 0)
@@ -439,7 +439,7 @@ else if (room == rPotionResults)
 		draw_set_color(c_white);
 		draw_text(xStart, 80, potionNames[p5Name] + "\nof\n" + potionNouns[p5Noun]);
 		draw_text(xStart,120, "Damage: " + string(50 * ((global.pCaughtCount[4] * .1) + 1)));
-		draw_text(xStart,140, "Throw Speed: " + string(1.0 - (global.pMashCount[4] * .01)));
+		draw_text(xStart,140, "Reload: " + string(1.0 - (global.pMashCount[4] * .01)));
 		draw_text(xStart,160, "Radius: " + string(1.0 + (global.pCollectedCount[4] * 0.01)));
 	}
 	if(global.p6Char != 0)
@@ -451,7 +451,7 @@ else if (room == rPotionResults)
 		draw_set_color(c_white);
 		draw_text(xStart, 260, potionNames[p6Name] + "\nof\n" + potionNouns[p6Noun]);
 		draw_text(xStart, 300, "Damage: " + string(50 * ((global.pCaughtCount[5] * .1) + 1)));
-		draw_text(xStart, 320, "Throw Speed: " + string(1.0 - (global.pMashCount[5] * .01)));
+		draw_text(xStart, 320, "Reload: " + string(1.0 - (global.pMashCount[5] * .01)));
 		draw_text(xStart, 340, "Radius: " + string(1.0 + (global.pCollectedCount[5] * 0.01)));
 	}
 	if(global.p7Char != 0)
@@ -463,7 +463,7 @@ else if (room == rPotionResults)
 		draw_set_color(c_white);
 		draw_text(xStart, 260, potionNames[p7Name] + "\nof\n" + potionNouns[p7Noun]);
 		draw_text(xStart, 300, "Damage: " + string(50 * ((global.pCaughtCount[6] * .1) + 1)));
-		draw_text(xStart, 320, "Throw Speed: " + string(1.0 - (global.pMashCount[6] * .01)));
+		draw_text(xStart, 320, "Reload: " + string(1.0 - (global.pMashCount[6] * .01)));
 		draw_text(xStart, 340, "Radius: " + string(1.0 + (global.pCollectedCount[6] * 0.01)));
 	}
 	if(global.p8Char != 0)
@@ -475,7 +475,7 @@ else if (room == rPotionResults)
 		draw_set_color(c_white);
 		draw_text(xStart, 260, potionNames[p8Name] + "\nof\n" + potionNouns[p8Noun]);
 		draw_text(xStart, 300, "Damage: " + string(50 * ((global.pCaughtCount[7] * .1) + 1)));
-		draw_text(xStart, 320, "Throw Speed: " + string(1.0 - (global.pMashCount[7] * .01)));
+		draw_text(xStart, 320, "Reload: " + string(1.0 - (global.pMashCount[7] * .01)));
 		draw_text(xStart, 340, "Radius: " + string(1.0 + (global.pCollectedCount[7] * 0.01)));
 	}
 	if(global.p9Char != 0)
@@ -487,7 +487,7 @@ else if (room == rPotionResults)
 		draw_set_color(c_white);
 		draw_text(xStart, 260, potionNames[p8Name] + "\nof\n" + potionNouns[p8Noun]);
 		draw_text(xStart, 300, "Damage: " + string(50 * ((global.pCaughtCount[8] * .1) + 1)));
-		draw_text(xStart, 320, "Throw Speed: " + string(1.0 - (global.pMashCount[8] * .01)));
+		draw_text(xStart, 320, "Reload: " + string(1.0 - (global.pMashCount[8] * .01)));
 		draw_text(xStart, 340, "Radius: " + string(1.0 + (global.pCollectedCount[8] * 0.01)));
 	}
 }
