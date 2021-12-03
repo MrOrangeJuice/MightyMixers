@@ -110,7 +110,7 @@ instanceID = instance_place(x,y,oIngredient);
 if(instanceID != noone){
 	global.pCollectedCount[player] ++;
 	instance_destroy(instanceID);
-	
+	audio_play_sound(pickup,5,false);
 }
 
 /*

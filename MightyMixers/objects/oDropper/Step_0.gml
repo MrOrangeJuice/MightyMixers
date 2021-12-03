@@ -7,6 +7,7 @@ if(global.pDropTimer[0] <= 0 && keyboard_check_pressed(vk_space))
 	inst = instance_create_layer(320, 60, dropItemLayer, oDropItem);
 	inst.player = 0;
 	global.pDropTimer[0] = timerLength;
+	audio_play_sound(itemdrop, 5, false);
 }
 
 for(i = 0; i < 8; i++){

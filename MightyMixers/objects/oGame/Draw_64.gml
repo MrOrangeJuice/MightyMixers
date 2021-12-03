@@ -362,16 +362,16 @@ else if(room == rCollection){
 			xMinigameStart = 40 + i * 70;
 			switch(global.pChars[i]){
 			case "1":
-				draw_sprite(sDrakHUD,global.pSkins[i],xMinigameStart,306);
+				draw_sprite(sDrakHUD,global.pSkins[i],xMinigameStart,309);
 				break;
 			case "2":
-				draw_sprite(sScientistHUD,global.pSkins[i],xMinigameStart,306);
+				draw_sprite(sScientistHUD,global.pSkins[i],xMinigameStart,309);
 				break;
 			case "3":
-				draw_sprite(sChefHUD,global.pSkins[i],xMinigameStart,306);
+				draw_sprite(sChefHUD,global.pSkins[i],xMinigameStart,309);
 				break;
 			}
-			draw_text(xMinigameStart + 28, 299, real(global.pCollectedCount[i]));
+			draw_text(xMinigameStart + 16, 302, real(global.pCollectedCount[i]));
 			//if(global.pDropTimer[i] > 0){
 			//	x2 = (global.pDropTimer[i] / oDropper.timerLength) * 50;
 			//	draw_rectangle(xMinigameStart - 6, 290, xMinigameStart - 6 + x2, 292, false);	

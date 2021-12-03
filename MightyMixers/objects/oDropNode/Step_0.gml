@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if(clear){
-	rand = random(5);
+	rand = random(12);
 	counter -= delta_time / 1000000;
 	if(counter <= 0){
 		counter = counterMax + rand;
@@ -10,6 +10,7 @@ if(clear){
 		with(i){
 			sprite_index = global.itemSprites[irandom(8)];
 		}
+		audio_play_sound(itemdrop,5,false);
 		clear = false;
 	}
 }

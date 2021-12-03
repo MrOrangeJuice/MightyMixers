@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "potionbreak_wall.wav",
-  "duration": 0.13,
+  "duration": 0.125,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

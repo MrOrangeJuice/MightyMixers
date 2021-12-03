@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(timeToMash > 0.0)
-{
+//if(timeToMash > 0.0)
+//{
 	timeToMash -= delta_time / 1000000; //counting down timer
 	
 
@@ -26,12 +26,12 @@ if(timeToMash > 0.0)
 	//show_debug_message(outputstring1);
 	//show_debug_message(outputstring2);
 
-}
-else
-{
-	audio_play_sound(menumove,5,false);
-	SlideTransition(TRANS_MODE.GOTO, rDropper);	
-}
+//}
+//else
+//{
+//	audio_play_sound(menumove,5,false);
+//	SlideTransition(TRANS_MODE.GOTO, rDropper);	
+//}
 
 
 	

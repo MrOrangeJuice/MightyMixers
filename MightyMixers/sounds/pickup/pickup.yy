@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "mscCharSelect.mp3",
-  "duration": 32.016,
+  "soundFile": "pickup.wav",
+  "duration": 0.239,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "mscCharSelect",
+  "name": "pickup",
   "tags": [],
   "resourceType": "GMSound",
 }

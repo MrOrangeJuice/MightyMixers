@@ -6,5 +6,6 @@ y += dropSpeed;
 
 if(place_meeting(x, y-20, oCauldron)){
 	global.pCaughtCount[player] ++;
+	audio_play_sound(pickup, 5, false);
 	instance_destroy();
 }

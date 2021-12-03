@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "mscCharSelect.mp3",
-  "duration": 32.016,
+  "soundFile": "death.wav",
+  "duration": 0.624167,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "mscCharSelect",
+  "name": "death",
   "tags": [],
   "resourceType": "GMSound",
 }

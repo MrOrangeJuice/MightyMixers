@@ -1,5 +1,8 @@
 /// @description Go to fight
 
 
+if(room == rDropper){
+	SlideTransition(TRANS_MODE.GOTO,rMinigames);
+}
 
-SlideTransition(TRANS_MODE.GOTO,rPotionResults);
+else SlideTransition(TRANS_MODE.GOTO,rPotionResults);
