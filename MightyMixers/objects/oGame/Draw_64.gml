@@ -342,12 +342,8 @@ else if(room == rMinigames){
 				draw_sprite(sChefHUD,global.pSkins[i],xMinigameStart,306);
 				break;
 			}
-			//draw_sprite(global.itemSprites[i], 0, xMinigameStart + 16, 307); 
+			//draw_sprite(global.itemSprites[i], 0, xMinigameStart + 16, 307);
 			draw_text(xMinigameStart + 28, 299, real(global.pMashCount[i]));
-			if(global.pDropTimer[i] > 0){
-				x2 = (global.pDropTimer[i] / oDropper.timerLength) * 50;
-				draw_rectangle(xMinigameStart - 6, 290, xMinigameStart - 6 + x2, 292, false);	
-			}
 		}
 	}
 }

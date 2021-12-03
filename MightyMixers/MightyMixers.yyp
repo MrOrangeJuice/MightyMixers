@@ -43,6 +43,7 @@
     {"id":{"name":"oPotionResultController","path":"objects/oPotionResultController/oPotionResultController.yy",},"order":22,},
     {"id":{"name":"sDrak0_Idle","path":"sprites/sDrak0_Idle/sDrak0_Idle.yy",},"order":6,},
     {"id":{"name":"sScientistHUD","path":"sprites/sScientistHUD/sScientistHUD.yy",},"order":38,},
+    {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},"order":36,},
     {"id":{"name":"sDropper","path":"sprites/sDropper/sDropper.yy",},"order":19,},
     {"id":{"name":"sPotionProto","path":"sprites/sPotionProto/sPotionProto.yy",},"order":10,},
     {"id":{"name":"sScientist0_Run","path":"sprites/sScientist0_Run/sScientist0_Run.yy",},"order":16,},
