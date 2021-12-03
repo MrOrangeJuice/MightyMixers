@@ -393,8 +393,10 @@ else if (room == rPotionResults)
 		draw_sprite(sPotion,0,xStart,60);
 		draw_set_color(c_white);
 		draw_text(xStart, 80, potionNames[p1Name] + "\nof\n" + potionNouns[p1Noun]);
-		
+		draw_text(xStart,120, "Damage: " + string(50 * ((global.pCaughtCount[0] * .1) + 1)));
+		draw_text(xStart,140, "Throw Speed: " + string(1.0 - (global.pMashCount[0] * .01)));
 	}
+	
 	if(global.p2Char != 0)
 	{
 		xStart = 192;
@@ -403,61 +405,85 @@ else if (room == rPotionResults)
 		draw_sprite(sPotion,1,xStart,60);
 		draw_set_color(c_white);
 		draw_text(xStart, 80, potionNames[p2Name] + "\nof\n" + potionNouns[p2Noun]);
+		draw_text(xStart,120, "Damage: " + string(50 * ((global.pCaughtCount[1] * .1) + 1)));
+		draw_text(xStart,140, "Throw Speed: " + string(1.0 - (global.pMashCount[1] * .01)));
 	}
 	if(global.p3Char != 0)
 	{
 		xStart = 320;
 		draw_set_color(c_lime);
 		draw_text(xStart, 40, "P3");
+		draw_sprite(sPotion,2,xStart,60);
 		draw_set_color(c_white);
-		draw_text(xStart, 100, potionNames[p3Name] + "\nof\n" + potionNouns[p3Noun]);
+		draw_text(xStart, 80, potionNames[p3Name] + "\nof\n" + potionNouns[p3Noun]);
+		draw_text(xStart,120, "Damage: " + string(50 * ((global.pCaughtCount[2] * .1) + 1)));
+		draw_text(xStart,140, "Throw Speed: " + string(1.0 - (global.pMashCount[2] * .01)));
 	}
 	if(global.p4Char != 0)
 	{
 		xStart = 448;
 		draw_set_color(c_yellow);
 		draw_text(xStart, 40, "P4");
+		draw_sprite(sPotion,3,xStart,60);
 		draw_set_color(c_white);
-		draw_text(xStart, 100, potionNames[p4Name] + "\nof\n" + potionNouns[p4Noun]);
+		draw_text(xStart, 80, potionNames[p4Name] + "\nof\n" + potionNouns[p4Noun]);
+		draw_text(xStart,120, "Damage: " + string(50 * ((global.pCaughtCount[3] * .1) + 1)));
+		draw_text(xStart,140, "Throw Speed: " + string(1.0 - (global.pMashCount[3] * .01)));
 	}
 	if(global.p5Char != 0)
 	{
 		xStart = 576;
 		draw_set_color(c_fuchsia);
 		draw_text(xStart, 40, "P5");
+		draw_sprite(sPotion,4,xStart,60);
 		draw_set_color(c_white);
-		draw_text(xStart, 100, potionNames[p5Name] + "\nof\n" + potionNouns[p5Noun]);
+		draw_text(xStart, 80, potionNames[p5Name] + "\nof\n" + potionNouns[p5Noun]);
+		draw_text(xStart,120, "Damage: " + string(50 * ((global.pCaughtCount[4] * .1) + 1)));
+		draw_text(xStart,140, "Throw Speed: " + string(1.0 - (global.pMashCount[4] * .01)));
+
 	}
 	if(global.p6Char != 0)
 	{
-		xStart = 80;
+		xStart = 128;
 		draw_set_color(c_orange);
 		draw_text(xStart, 200, "P6");
+		draw_sprite(sPotion,5,xStart,220);
 		draw_set_color(c_white);
 		draw_text(xStart, 260, potionNames[p6Name] + "\nof\n" + potionNouns[p6Noun]);
+		draw_text(xStart, 300, "Damage: " + string(50 * ((global.pCaughtCount[5] * .1) + 1)));
+		draw_text(xStart, 320, "Throw Speed: " + string(1.0 - (global.pMashCount[5] * .01)));
 	}
 	if(global.p7Char != 0)
 	{
-		xStart = 240;
+		xStart = 256;
 		draw_set_color(c_teal);
 		draw_text(xStart, 200, "P7");
+		draw_sprite(sPotion,6,xStart,220);
 		draw_set_color(c_white);
 		draw_text(xStart, 260, potionNames[p7Name] + "\nof\n" + potionNouns[p7Noun]);
+		draw_text(xStart, 300, "Damage: " + string(50 * ((global.pCaughtCount[6] * .1) + 1)));
+		draw_text(xStart, 320, "Throw Speed: " + string(1.0 - (global.pMashCount[6] * .01)));
 	}
 	if(global.p8Char != 0)
 	{
-		xStart = 300;
+		xStart = 384;
 		draw_set_color(c_purple);
 		draw_text(xStart, 200, "P8");
+		draw_sprite(sPotion,7,xStart,220);
 		draw_set_color(c_white);
 		draw_text(xStart, 260, potionNames[p8Name] + "\nof\n" + potionNouns[p8Noun]);
+		draw_text(xStart, 300, "Damage: " + string(50 * ((global.pCaughtCount[7] * .1) + 1)));
+		draw_text(xStart, 320, "Throw Speed: " + string(1.0 - (global.pMashCount[7] * .01)));
 	}
 	if(global.p9Char != 0)
 	{
-		xStart = 360;
+		xStart = 512;
 		draw_set_color(c_green);
 		draw_text(xStart, 200, "P9");
+		draw_sprite(sPotion,8,xStart,220);
 		draw_set_color(c_white);
 		draw_text(xStart, 260, potionNames[p8Name] + "\nof\n" + potionNouns[p8Noun]);
+				draw_text(xStart, 300, "Damage: " + string(50 * ((global.pCaughtCount[8] * .1) + 1)));
+		draw_text(xStart, 320, "Throw Speed: " + string(1.0 - (global.pMashCount[8] * .01)));
 	}
 }
