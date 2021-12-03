@@ -1,4 +1,7 @@
 /// @description Set sprite
+size = 1.0 + (global.pCollectedCount[player] * 0.01);
+image_xscale = size;
+image_yscale = size;
 switch(player)
 {
 	case 0:

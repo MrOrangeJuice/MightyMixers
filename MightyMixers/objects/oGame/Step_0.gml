@@ -23,6 +23,7 @@ if(room == rCave)
 	}
 }
 
+/*
 if(room == rDropper || room == rMinigames || room == rPotionResults || room == rCollection)
 {
 	if(keyboard_check_pressed(vk_enter))
