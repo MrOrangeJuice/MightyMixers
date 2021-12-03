@@ -354,8 +354,9 @@ else if (room == rPotionResults)
 		xStart = 64;
 		draw_set_color(c_red);
 		draw_text(xStart, 40, "P1");
+		draw_sprite(sPotion,0,xStart,60);
 		draw_set_color(c_white);
-		draw_text(xStart, 100, potionNames[p1Name] + "\nof\n" + potionNouns[p1Noun]);
+		draw_text(xStart, 80, potionNames[p1Name] + "\nof\n" + potionNouns[p1Noun]);
 		
 	}
 	if(global.p2Char != 0)
@@ -363,8 +364,9 @@ else if (room == rPotionResults)
 		xStart = 192;
 		draw_set_color(c_blue);
 		draw_text(xStart, 40, "P2");
+		draw_sprite(sPotion,1,xStart,60);
 		draw_set_color(c_white);
-		draw_text(xStart, 100, potionNames[p2Name] + "\nof\n" + potionNouns[p2Noun]);
+		draw_text(xStart, 80, potionNames[p2Name] + "\nof\n" + potionNouns[p2Noun]);
 	}
 	if(global.p3Char != 0)
 	{
@@ -385,7 +387,7 @@ else if (room == rPotionResults)
 	if(global.p5Char != 0)
 	{
 		xStart = 576;
-		draw_set_color(c_purple);
+		draw_set_color(c_fuchsia);
 		draw_text(xStart, 40, "P5");
 		draw_set_color(c_white);
 		draw_text(xStart, 100, potionNames[p5Name] + "\nof\n" + potionNouns[p5Noun]);
@@ -405,5 +407,21 @@ else if (room == rPotionResults)
 		draw_text(xStart, 200, "P7");
 		draw_set_color(c_white);
 		draw_text(xStart, 260, potionNames[p7Name] + "\nof\n" + potionNouns[p7Noun]);
+	}
+	if(global.p8Char != 0)
+	{
+		xStart = 300;
+		draw_set_color(c_purple);
+		draw_text(xStart, 200, "P8");
+		draw_set_color(c_white);
+		draw_text(xStart, 260, potionNames[p8Name] + "\nof\n" + potionNouns[p8Noun]);
+	}
+	if(global.p9Char != 0)
+	{
+		xStart = 360;
+		draw_set_color(c_green);
+		draw_text(xStart, 200, "P9");
+		draw_set_color(c_white);
+		draw_text(xStart, 260, potionNames[p8Name] + "\nof\n" + potionNouns[p8Noun]);
 	}
 }

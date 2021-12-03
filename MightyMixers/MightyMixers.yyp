@@ -33,6 +33,7 @@
     {"id":{"name":"sCherry","path":"sprites/sCherry/sCherry.yy",},"order":3,},
     {"id":{"name":"jump","path":"sounds/jump/jump.yy",},"order":3,},
     {"id":{"name":"snd_PotionBreak","path":"sounds/snd_PotionBreak/snd_PotionBreak.yy",},"order":1,},
+    {"id":{"name":"sChef0_IdleBig","path":"sprites/sChef0_IdleBig/sChef0_IdleBig.yy",},"order":49,},
     {"id":{"name":"oBox","path":"objects/oBox/oBox.yy",},"order":4,},
     {"id":{"name":"sPotionExplosion9","path":"sprites/sPotionExplosion9/sPotionExplosion9.yy",},"order":33,},
     {"id":{"name":"sChef1_Run","path":"sprites/sChef1_Run/sChef1_Run.yy",},"order":44,},

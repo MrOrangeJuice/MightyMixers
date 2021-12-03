@@ -72,8 +72,8 @@ global.pDropTimer = [0,0,0,0,0,0,0,0,0];
 global.pMashCount = [0,0,0,0,0,0,0,0,0];
 global.pCollectedCount = [0,0,0,0,0,0,0,0,0];
 
-potionNames = ["Potion","Brew"];
-potionNouns = ["Power","Passion"];
+potionNames = ["Potion","Brew","Elixir","Drink","Mixture","Tonic"];
+potionNouns = ["Power","Passion","Malaise","Death","Tomfoolery","Tax Evasion","Wisdom","Wisecracking","Warmongering","Fruit Punch"];
 p1Name = 0;
 p1Noun = 0;
 p2Name = 0;
