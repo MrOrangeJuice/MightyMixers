@@ -2,6 +2,7 @@
 
 
 if(room == rDropper){
+	global.dropperEnded = true;
 	SlideTransition(TRANS_MODE.GOTO,rMinigames);
 }
 
