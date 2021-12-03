@@ -13,6 +13,9 @@ if(room == rCave)
 			case "2":
 				draw_sprite(sScientistHUD,global.p1Skin,xStart,308);
 				break;
+			case "3":
+				draw_sprite(sChefHUD,global.p1Skin,xStart,308);
+				break;
 		}
 		for(i = 0; i < global.stockCount; i++)
 		{
@@ -41,6 +44,9 @@ if(room == rCave)
 				break;
 			case "2":
 				draw_sprite(sScientistHUD,global.p2Skin,xStart,308);
+				break;
+			case "3":
+				draw_sprite(sChefHUD,global.p2Skin,xStart,308);
 				break;
 		}
 		for(i = 0; i < global.stockCount; i++)
@@ -71,6 +77,9 @@ if(room == rCave)
 			case "2":
 				draw_sprite(sScientistHUD,global.p3Skin,xStart,308);
 				break;
+			case "3":
+				draw_sprite(sChefHUD,global.p3Skin,xStart,308);
+				break;
 		}
 		for(i = 0; i < global.stockCount; i++)
 		{
@@ -99,6 +108,9 @@ if(room == rCave)
 				break;
 			case "2":
 				draw_sprite(sScientistHUD,global.p4Skin,xStart,308);
+				break;
+			case "3":
+				draw_sprite(sChefHUD,global.p4Skin,xStart,308);
 				break;
 		}
 		for(i = 0; i < global.stockCount; i++)
@@ -129,6 +141,9 @@ if(room == rCave)
 			case "2":
 				draw_sprite(sScientistHUD,global.p5Skin,xStart,308);
 				break;
+			case "3":
+				draw_sprite(sChefHUD,global.p5Skin,xStart,308);
+				break;
 		}
 		for(i = 0; i < global.stockCount; i++)
 		{
@@ -157,6 +172,9 @@ if(room == rCave)
 				break;
 			case "2":
 				draw_sprite(sScientistHUD,global.p6Skin,xStart,308);
+				break;
+			case "3":
+				draw_sprite(sChefHUD,global.p6Skin,xStart,308);
 				break;
 		}
 		for(i = 0; i < global.stockCount; i++)
@@ -187,6 +205,9 @@ if(room == rCave)
 			case "2":
 				draw_sprite(sScientistHUD,global.p7Skin,xStart,308);
 				break;
+			case "3":
+				draw_sprite(sChefHUD,global.p7Skin,xStart,308);
+				break;
 		}
 		for(i = 0; i < global.stockCount; i++)
 		{
@@ -216,6 +237,9 @@ if(room == rCave)
 			case "2":
 				draw_sprite(sScientistHUD,global.p8Skin,xStart,308);
 				break;
+			case "3":
+				draw_sprite(sChefHUD,global.p8Skin,xStart,308);
+				break;
 		}
 		for(i = 0; i < global.stockCount; i++)
 		{
@@ -244,6 +268,9 @@ if(room == rCave)
 				break;
 			case "2":
 				draw_sprite(sScientistHUD,global.p9Skin,xStart,308);
+				break;
+			case "3":
+				draw_sprite(sChefHUD,global.p9Skin,xStart,308);
 				break;
 		}
 		for(i = 0; i < global.stockCount; i++)
@@ -280,6 +307,9 @@ if(room == rDropper){
 			case "2":
 				draw_sprite(sScientistHUD,global.pSkins[i],xMinigameStart,306);
 				break;
+			case "3":
+				draw_sprite(sChefHUD,global.pSkins[i],xMinigameStart,306);
+				break;
 			}
 			draw_sprite(global.itemSprites[i], 0, xMinigameStart + 16, 307); 
 			draw_text(xMinigameStart + 28, 299, real(global.pCaughtCount[i]));
@@ -308,6 +338,9 @@ else if(room == rMinigames){
 			case "2":
 				draw_sprite(sScientistHUD,global.pSkins[i],xMinigameStart,306);
 				break;
+			case "3":
+				draw_sprite(sChefHUD,global.pSkins[i],xMinigameStart,306);
+				break;
 			}
 			//draw_sprite(global.itemSprites[i], 0, xMinigameStart + 16, 307); 
 			draw_text(xMinigameStart + 28, 299, real(global.pMashCount[i]));
@@ -333,6 +366,9 @@ else if(room == rCollection){
 				break;
 			case "2":
 				draw_sprite(sScientistHUD,global.pSkins[i],xMinigameStart,306);
+				break;
+			case "3":
+				draw_sprite(sChefHUD,global.pSkins[i],xMinigameStart,306);
 				break;
 			}
 			draw_text(xMinigameStart + 28, 299, real(global.pCollectedCount[i]));

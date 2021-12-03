@@ -15,7 +15,11 @@ switch(player)
 				sprite_index = sCanoliPortrait;
 				break;
 			case 3:
+				sprite_index = sChefPortrait;
+				break;
+			case 4:
 				sprite_index = sRandomPortrait;
+				break;
 		}
 		break;
 	case 1:
@@ -31,7 +35,11 @@ switch(player)
 				sprite_index = sCanoliPortrait;
 				break;
 			case 3:
+				sprite_index = sChefPortrait;
+				break;
+			case 4:
 				sprite_index = sRandomPortrait;
+				break;
 		}
 		break;
 	case 2:
@@ -47,7 +55,11 @@ switch(player)
 				sprite_index = sCanoliPortrait;
 				break;
 			case 3:
+				sprite_index = sChefPortrait;
+				break;
+			case 4:
 				sprite_index = sRandomPortrait;
+				break;
 		}
 		break;
 	case 3:
@@ -63,7 +75,11 @@ switch(player)
 				sprite_index = sCanoliPortrait;
 				break;
 			case 3:
+				sprite_index = sChefPortrait;
+				break;
+			case 4:
 				sprite_index = sRandomPortrait;
+				break;
 		}
 		break;
 	case 4:
@@ -79,7 +95,11 @@ switch(player)
 				sprite_index = sCanoliPortrait;
 				break;
 			case 3:
+				sprite_index = sChefPortrait;
+				break;
+			case 4:
 				sprite_index = sRandomPortrait;
+				break;
 		}
 		break;
 	case 5:
@@ -95,7 +115,11 @@ switch(player)
 				sprite_index = sCanoliPortrait;
 				break;
 			case 3:
+				sprite_index = sChefPortrait;
+				break;
+			case 4:
 				sprite_index = sRandomPortrait;
+				break;
 		}
 		break;
 	case 6:
@@ -111,7 +135,11 @@ switch(player)
 				sprite_index = sCanoliPortrait;
 				break;
 			case 3:
+				sprite_index = sChefPortrait;
+				break;
+			case 4:
 				sprite_index = sRandomPortrait;
+				break;
 		}
 		break;
 	case 7:
@@ -127,7 +155,11 @@ switch(player)
 				sprite_index = sCanoliPortrait;
 				break;
 			case 3:
+				sprite_index = sChefPortrait;
+				break;
+			case 4:
 				sprite_index = sRandomPortrait;
+				break;
 		}
 		break;
 	case 8:
@@ -143,7 +175,11 @@ switch(player)
 				sprite_index = sCanoliPortrait;
 				break;
 			case 3:
+				sprite_index = sChefPortrait;
+				break;
+			case 4:
 				sprite_index = sRandomPortrait;
+				break;
 		}
 		break;
 }
